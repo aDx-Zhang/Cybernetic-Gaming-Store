@@ -1,0 +1,2846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+    rel="stylesheet">
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+  --card-height: 65vh;
+  --card-width:
+  calc(var(--card-height) / 1.5);
+}
+@font-face{
+  src: url(./Fonts/Zolina-Bold.ttf);
+  font-family: z;
+}
+@font-face{
+  src: url(./Fonts/LPHorizontCaps.otf);
+  font-family: l;
+}
+@font-face{
+  src: url(./Fonts/waltograph42.ttf);
+  font-family: w;
+}
+  
+@font-face{
+  src: url(./Fonts/a.ttf);
+  font-family: a;
+}
+@font-face{
+  src: url(./Fonts/b.ttf);
+  font-family: b;
+}
+@font-face{
+  src: url(./Fonts/c.ttf);
+  font-family: c;
+} 
+@font-face{
+  src: url(./Fonts/d.ttf);
+  font-family: d;
+}
+@font-face{
+  src: url(./Fonts/e.ttf);
+  font-family: e;
+}
+
+  
+@font-face{
+  src: url(./Fonts/f.ttf);
+  font-family: f;
+}
+@font-face{
+  src: url(./Fonts/g.ttf);
+  font-family: g;
+}
+@font-face{
+  src: url(./Fonts/h.ttf);
+  font-family: h;
+} 
+@font-face{
+  src: url(./Fonts/i.ttf);
+  font-family: i;
+}
+@font-face{
+  src: url(./Fonts/j.ttf);
+  font-family: j;
+}
+  
+@font-face{
+  src: url(./Fonts/k.otf);
+  font-family: k;
+}
+@font-face{
+  src: url(./Fonts/l.ttf);
+  font-family: l;
+}
+@font-face{
+  src: url(./Fonts/m.otf);
+  font-family: m;
+} 
+@font-face{
+  src: url(./Fonts/n.ttf);
+  font-family: n;
+}
+@font-face{
+  src: url(./Fonts/o.ttf);
+  font-family: o;
+}
+  
+@font-face{
+  src: url(./Fonts/p.ttf);
+  font-family: p;
+}
+@font-face{
+  src: url(./Fonts/q.ttf);
+  font-family: q;
+}
+@font-face{
+  src: url(./Fonts/r.ttf);
+  font-family: r;
+} 
+
+
+.RS-TOP{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 118vh;
+  padding: 40px;
+}
+.RS-1{
+  max-width: 800px;
+  /* background: #111; */
+  width: 800px;
+  padding: 25px 40px 10px 40px;
+  border-radius: 34px;
+  border: aliceblue solid;
+  box-shadow: 0px 0px 30px rgb(255 255 255 / 49%);
+}
+.RS-1 .text{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 60px;
+  font-weight: 600;
+  background: -webkit-linear-gradient(right, #56d8e4, #0a1dff, #56d8e4, #00ffa1);
+  -webkit-background-clip: text;
+  font-family: 'z', sans-serif;
+  -webkit-text-fill-color: transparent;
+  /* box-shadow: 0 0 5px #03e9f4, 0 0 25px #00000003, 0 0 50px #03e9f400; */
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  transition: all 1s;
+}
+.RS-1 form{
+  padding: 30px 0 0 0;
+}
+.RS-1 form .form-row{
+  display: flex;
+  margin: 32px 0;
+  justify-content: center;
+}
+form .form-row .input-data{
+  width: 100%;
+  border: initial;
+  height: 40px;
+  font-family: 'f';
+  color: aliceblue;
+  margin: 0 20px;
+  position: relative;
+  /* background: #ff8a00; */
+  position: relative;
+  position: relative;
+}
+form .form-row .textarea{
+  height: 70px;
+}
+.input-data input,
+.textarea textarea{
+  display: block;
+  border-radius: 11px;
+  width: 100%;
+  border: #00ffc9 solid;
+  height: 100%;
+  background: transparent;
+  color: #00e8df;
+  font-family: 'f';
+  /* border: none; */
+  font-size: 19px;
+  /* border-bottom: 2px solid rgba(0,0,0, 0.12); */
+}
+.input-data input:focus ~ label, .textarea textarea:focus ~ label,
+.input-data input:valid ~ label, .textarea textarea:valid ~ label{
+  transform: translateY(-30px);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: 'a';
+}
+.textarea textarea{
+  resize: none;
+  padding-top: 10px;
+}
+.input-data label{
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 17px;
+  left: 9px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.textarea label{
+  width: 69%;
+  bottom: 40px;
+  left: 8px;
+  /* background: #fff; */
+}
+.input-data .underline{
+  /* position: absolute; */
+  /* bottom: 0; */
+  display: none;
+  /* height: 2px; */
+  /* width: 100%; */
+}
+.input-data .underline:before{
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #3498db;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before,
+.textarea textarea:focus ~ .underline:before,
+.textarea textarea:valid ~ .underline:before{
+  transform: scale(1);
+}
+.submit-btn .input-data{
+  overflow: hidden;
+  height: 45px!important;
+  width: 25%!important;
+}
+.submit-btn .input-data .inner{
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+  transition: all 0.4s;
+}
+.submit-btn .input-data:hover .inner{
+  left: 0;
+}
+.submit-btn .input-data input{
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+@media (max-width: 700px) {
+  .RS-1 .text{
+    font-size: 30px;
+  }
+  .RS-1 form{
+    padding: 10px 0 0 0;
+  }
+  .RS-1 form .form-row{
+    display: block;
+  }
+  form .form-row .input-data{
+    margin: 35px 0!important;
+  }
+  .submit-btn .input-data{
+    width: 40%!important;
+  }
+}
+
+
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+.back-top-button.active {
+    transform: translateY(-10px);
+    visibility: visible;
+    opacity: 1;
+}
+@media (min-width: 768px){
+.back-top-button {
+    bottom: 5px;
+    right: 25px;
+}
+
+}
+.back-top-button {
+    position: fixed;
+    bottom: 10px;
+    right: 64px;
+    background-color: hsl(185deg 68% 53%);
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    padding: 14px;
+    border-radius: 28%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.25s ease;
+}
+
+
+/*-----------------------------------*\
+  #HEADER
+\*-----------------------------------*/
+
+header {
+  position: absolute;
+  top: -90px;
+  left: 0;
+  width: 100%;
+  padding-block: 15px;
+  /* box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.5); */
+  /* background:  hsl(252, 80%, 16%); */
+  transition: 0.25s ease-in-out;
+  z-index: 4;
+}
+
+header.active-topnav {top: 0;/* background:  hsl(252, 80%, 16%); */}
+
+header .container-topnav {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  justify-content: flex-end;
+  margin-right: 12px;
+}
+
+.nav-toggle-btn {
+  color: hsl(0deg 0% 100%);
+  font-size: 35px;
+  border-radius: 4px;
+  background: linear-gradient(93.51deg, rgb(217 0 192 / 58%) 2.84%, #00ffc4ab 99.18%);
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+}
+
+.nav-toggle-btn ion-icon { --ionicon-stroke-width: 40px; }
+
+.navbar {
+  position: fixed;
+  bottom: -270px;
+  left: 0;
+  width: 100%;
+  background:  hsl(252, 80%, 16%);
+  border-radius: 8px 8px 0 0;
+  padding: 30px 10px 10px;
+  box-shadow: 0 -1px 10px hsla(0, 0%, 0%, 0.5);
+  z-index: 2;
+  visibility: hidden;
+  transition: 0.15s ease-in;
+}
+
+.navbar.active-topnav {
+  bottom: 0;
+  visibility: visible;
+  transition: 0.25s ease-out;
+}
+
+.navbar-list {
+  padding-bottom: 5px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
+  margin-bottom: 5px;
+  font-family: 'k';
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar::before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 4px;
+  background: hsla(0, 0%, 100%, 0.05);
+  border-radius: 5px;
+}
+
+.navbar-link {
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.navbar-link:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
+
+.navbar-actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.navbar-btn {
+  color: hsl(0, 0%, 100%);
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.navbar-btn:is(:hover, :focus),
+.navbar-actions .btn:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
+
+.overlay-topnav {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  transition: 0.25s ease-in-out;
+}
+
+.overlay-topnav.active-topnav {
+  pointer-events: all;
+  background: hsla(0, 0%, 0%, 0.7);
+}
+.navbar-item{
+  padding: 7px;
+}
+
+
+/*-----------------------------------*\
+  #RESPONSIVE
+\*-----------------------------------*/
+
+@media (min-width: 550px) {
+
+  .container-topnav {
+    /* max-width: 500px; */
+    /* margin-inline: auto; */
+  }
+  
+
+}
+
+
+
+
+
+
+
+/**
+ * responsive for larger than 1024px
+ */
+
+@media (min-width: 1100px) {
+
+  /**
+   * REUSED STYLE
+   */
+
+  .container-topnav { max-width: 980px; }
+
+
+
+  /**
+   * HEADER
+   */
+
+  header { top: -120px; }
+
+  .nav-toggle-btn { display: none; }
+
+  .navbar {
+    position: static;
+    visibility: visible;
+    box-shadow: none;
+    padding: 0;
+    background: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background:  hsl(252, 80%, 16%); */
+    gap: 30px;
+  }
+
+  .navbar-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-link { position: relative; }
+
+  .navbar-link::after {
+    --scale: 0;
+
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(var(--scale));
+    transform-origin: left;
+    width: calc(100% - 20px);
+    height: 2px;
+    background: linear-gradient(to right,  hsl(178, 100%, 49%), hsl(221, 100%, 50%));
+    transition: 0.25s ease-in-out;
+  }
+  .input-search::after {
+    --scale: 0;
+
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(var(--scale));
+    transform-origin: left;
+    width: calc(100% - 20px);
+    height: 2px;
+    background: linear-gradient(to right,  hsl(178, 100%, 49%), hsl(221, 100%, 50%));
+    transition: 0.25s ease-in-out;
+  }
+  .navbar-link:is(:hover, :focus) {
+    background: linear-gradient(to right,  hsl(178, 100%, 49%), hsl(221, 100%, 50%));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  .navbar-link:is(:hover, :focus)::after { --scale: 1; }
+
+  .navbar-actions { gap: 10px; }
+
+  .navbar-actions .btn {
+    background: hsl(221, 100%, 50%);
+    padding: 15px 25px;
+    transition: background 0.25s ease-in-out;
+  }
+
+  .navbar-actions .btn:is(:hover, :focus) { background: hsl(221, 100%, 40%); }
+
+  .navbar::before,
+  .overlay-topnav { display: none; }
+
+
+}
+@media (min-width: 200px) and (max-width: 660px) { 
+
+
+  form .form-row   .as1{
+            position: relative;    left: 68px;
+          }
+
+
+}
+@media (min-width: 1100px) and (max-width: 3000px) { 
+
+.active-topnav{
+  display: none;
+}
+}
+@media (min-width: 200px) and (max-width: 1099px) { 
+
+  #top .palwashapage .topofnav{
+  display: none;
+}
+.navBar{
+  margin-top: 100px;
+}
+}
+
+
+.p-las{
+    position: relative;
+    color: aliceblue;
+    font-size: 24px;
+    font-family: 'k',sans-serif;
+    background: linear-gradient(155deg, #e8e8e8 24.84%, #00e6f6 2.84%, #dedede 90.18%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.ft-sub-img{
+  position: relative;
+  width: 26%;
+  bottom: 22px;
+}
+
+.ft-img{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1100px) {
+  
+  .footer-bottom-container .p-las{
+    font-size: inherit;
+    text-align-last: center;
+  }
+  }
+
+  
+  
+  /* ***************************Footer******************************** */
+  
+  .links{
+    transition: 0.7s all;
+  }
+  .links:hover{
+    box-shadow: 0px 0px 30px blue;
+  }
+  
+  .h20001:hover{
+    /* box-shadow: 0px 0px 60px rgb(255, 0, 200); */
+  }
+  .h20001:hover{
+    transition: 0.7s all;
+  }
+  
+  #foot {
+    background: #00ffffab;
+    width: 100%;
+    position: relative;
+    /* bottom: -14131px; */
+    /* right: 125px; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .footer-bottom-container::after {
+    display: block;
+    content: "";
+    width: 30%;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid black;
+    position: absolute;
+    top: -40px;
+    left: 33%;
+  }
+  .footer-bottom-container {
+    position: relative;
+    height: 90px;
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    /* left: 1px; */
+    bottom: 20p;
+    justify-content: center;
+  }
+  .footer-main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    padding: 39px;
+    /* background: rgb(0 220 255); */
+    background: linear-gradient(147deg, rgb(1 110 218 / 83%) 24.84%, rgb(217 0 192 / 66%) 47.84%, #00e6f6 90.18%);
+    position: relative;
+  }
+  
+  .footer-main::after {
+    display: block;
+    content: "";
+    width: 60%;
+    border: 64px solid black;
+    position: absolute;
+    left: 2%;
+    right: 0;
+    top: 0px;
+    border-right: 229px solid transparent;
+    border-left: 228px solid transparent;
+    border-bottom: 40px solid transparent;
+  }
+  .foot-subb {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 14px;
+    width: 101%;
+  }
+  .footer-links  .links {
+    list-style: none;
+    /* border: dotted; */
+    padding: 15px;
+    position: relative;
+    font-family: 'a',sans-serif;
+    right: 72px;
+    border-radius: 7px;
+    background: rgb(0 0 0);
+  }
+  .footer-links  .links .a-footer {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+    letter-spacing: 2px;
+  }
+  .footer-links .links .a-footer:hover {
+    cursor: pointer;
+    /* border-bottom: 2px solid black; */
+    filter: drop-shadow(0 0px 7px rgba(21, 247, 255, 0.9));
+    transition: filter 0.3s ease;
+  }
+  .foot-sub-sohail {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 8px;
+    /* left: 20px; */
+    width: 100%;
+    margin-bottom: -95px;
+    position: relative;
+  }
+  .foot-sub-sohail .h20001 {
+    display: block;
+    margin: 0px auto -1px auto;
+    font-size: 57px;
+    letter-spacing: 4px;
+    color: initial;
+    font-weight: bolder;
+    background: linear-gradient(348deg, #fcfcfc 24.84%, #00f5dd 2.84%, #ffffff 90.18%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    /* font-family: 'a'; */
+    padding: 2px 2px 2px;
+    border-radius: 7px;
+    font-family: 'n',sans-serif;
+    /* width: 67%; */
+    /* background: floralwhite; */
+    /* border-style: double; */
+  }
+  
+  .h20001{
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .lower-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    /* left: -142px; */
+    /* top: 69px; */
+  }
+  .lower-part::after {
+    content: "";
+    display: block;
+    border-left: 265px solid transparent;
+    border-right: 274px solid black;
+    border-bottom: 110px solid black;
+    border-top: 125px solid transparent;
+    position: absolute;
+    right: 853px;
+    bottom: 24px;
+    transform: rotateY(180deg);
+  }
+  
+  
+  .cy:hover {
+    transform: rotate(10deg);
+    transition: transform 0.5s ease-in 0.1s;
+  }
+  .fa:hover {
+    transform: rotateY(60deg);
+  }
+  .foot-inner-logo {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .footer-logo-container {
+    margin-top: 20px;
+    display: block;
+  }
+  .footer-logo-container .a-footer:hover {
+    cursor: pointer;
+  }
+  .footer-logo-container .img-footer {
+    width: 300px;
+    transform: scale(0.7);
+  }
+  
+  .footer-bottom-container::before {
+    content: "";
+    display: block;
+    border-left: 260px solid transparent;
+    border-right: 247px solid black;
+    border-bottom: 138px solid black;
+    border-top: 139px solid transparent;
+    position: absolute;
+    right: -68px;
+    top: -297px;
+  }
+  
+  .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+  }
+  .list-inline  .icons {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /* *****************************************Payment Options Icons******************** */
+  
+  
+  
+  
+  .social-icons .fa {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.8em;
+  
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-icons.icon-circle .fa {
+    border-radius: 50%;
+  }
+  .social-icons.icon-rounded .fa {
+    border-radius: 5px;
+  }
+  .social-icons.icon-flat .fa {
+    border-radius: 0;
+  }
+  
+  .social-icons .fa:hover,
+  .social-icons .fa:active {
+    color: #fff;
+    box-shadow: 1px 1px 3px #333;
+  }
+  .social-icons.icon-zoom .fa:hover,
+  .social-icons.icon-zoom .fa:active {
+    transform: scale(1.1);
+  }
+  .social-icons.icon-rotate .fa:hover,
+  .social-icons.icon-rotate .fa:active {
+    transform: scale(1.1) rotate(360deg);
+  }
+  
+  .social-icons .fa-adn {
+    background-color: #504e54;
+  }
+  .social-icons .fa-apple {
+    background-color: #aeb5c5;
+  }
+  .social-icons .fa-android {
+    background-color: #a5c63b;
+  }
+  .social-icons .fa-bitbucket,
+  .social-icons .fa-bitbucket-square {
+    background-color: #003366;
+  }
+  .social-icons .fa-bitcoin,
+  .social-icons .fa-btc {
+    background-color: #f7931a;
+  }
+  .social-icons .fa-css3 {
+    background-color: #1572b7;
+  }
+  .social-icons .fa-dribbble {
+    background-color: #f46899;
+  }
+  .social-icons 
+  .social-icons {
+    background-color: #3c599f;
+  }
+  .social-icons .fa-flickr {
+    background-color: #ff0084;
+  }
+  
+  .h3011{
+    position: relative;
+    display: flex;
+    /* left: 323px; */
+    /* bottom: 58px; */
+    font-size: 28px;
+    justify-content: center;
+    color: black;
+    font-family: 'h',sans-serif;
+  }
+  
+  
+  
+  /* *************************Media Querry For Iphone 12 / 12 Pro / 12 Pro Max 11 X ************************ */
+   
+  
+  
+  @media (min-width: 280px) and (max-width: 610px) {
+  
+  .button01{
+      position: relative;
+      top: -491px;
+      left: 420px;
+  }
+   
+  /* *******************************footer***************************** */
+  .a-footer{
+   font-size: 8px;
+   position: relative;
+   left: -9px;
+  }
+  .footer-links{
+   position: relative;
+   left: 34px;
+   font-size: 1px;
+  }
+  #h2{
+   position: relative;
+   font-size: 44px;
+   /* left: -4px; */
+  }
+  .h20001{
+   /* position: relative; */
+   /* left: -204px; */
+   /* bottom: 2px; */
+  }
+  .h3011{
+   position: relative;
+   left: 17px;
+   /* top: -37px; */
+   text-align-last: center;
+  }
+  .lower-part{
+   position: relative;
+  }
+  .footer-main::after{
+   display: flex;
+   position: absolute;
+   width: 25%;
+   left: -32px;
+  }
+  .foot-sub-sohail{
+   /* position: relative; */
+   /* left: 9px; */
+   /* bottom: 55px; */
+   /* width: 227%; */
+  }
+  .footer-bottom-container::before, .lower-part::after{
+   display: none;
+  }
+  .footer-bottom-container::after{
+   position: absolute;
+   left: 110px;
+  }
+  .social-icons{
+   position: relative;
+   left: -278px;
+   top: 22px;
+   width: 51%;
+   text-align-last: center;
+   text-align-last: center;
+  }
+  #foot{
+      position: relative;
+      /* bottom: -34981px; */
+  }
+  }
+  
+  
+  @media (min-width: 611px) and (max-width: 830px) {
+  
+  .button01{
+      position: relative;
+      top: -265px;
+  }
+   
+  /* *******************************footer***************************** */
+  .a-footer{
+   font-size: 8px;
+   position: relative;
+   left: -9px;
+  }
+  .footer-links{
+   position: relative;
+   /* left: 6px; */
+   /* font-size: 25px; */
+  }
+  #h2{
+   position: relative;
+   font-size: 77px;
+   /* left: -4px; */
+  }
+  .h20001{
+   position: relative;
+   /* left: -458px; */
+   /* bottom: 2px; */
+  }
+  .h3011{
+   position: relative;
+   /* left: 69px; */
+   /* top: -37px; */
+  }
+  .lower-part{
+   position: relative;
+  }
+  .footer-main::after{
+   display: flex;
+   position: absolute;
+   width: 25%;
+   left: 24px;
+  }
+  .foot-sub-sohail{
+   position: relative;
+   /* left: 9px; */
+   /* bottom: 55px; */
+   /* width: 227%; */
+  }
+  .footer-bottom-container::before, .lower-part::after{
+   display: none;
+  }
+  .footer-bottom-container::after{
+   position: absolute;
+   left: 175px;
+  }
+  .social-icons{
+   position: relative;
+   left: -485px;
+   top: 22px;
+   width: 51%;
+   text-align-last: center;
+   text-align-last: center;
+  }
+  #foot{
+      position: relative;
+      /* bottom: -17644px; */
+      /* left: -81px; */
+      /* width: 122%; */
+  }
+  }
+  
+  
+  @media (min-width: 831px) and (max-width: 911px) {
+  
+  .button01{
+      position: relative;
+      top: -243px;
+      left: 371px;
+  }
+   
+  /* *******************************footer***************************** */
+  .a-footer{
+   font-size: 8px;
+   position: relative;
+   left: -9px;
+  }
+  .footer-links{
+   position: relative;
+   /* left: 6px; */
+   /* font-size: 25px; */
+  }
+  #h2{
+   position: relative;
+   font-size: 71px;
+   left: -4px;
+  }
+  .h20001{
+   position: relative;
+   /* left: -521px; */
+   /* bottom: 1px; */
+  }
+  .h3011{
+   position: relative;
+   /* left: 69px; */
+   /* top: -37px; */
+  }
+  .lower-part{
+   position: relative;
+  }
+  .footer-main::after{
+   display: flex;
+   position: absolute;
+   width: 25%;
+   left: 56px;
+  }
+  .foot-sub-sohail{
+   position: relative;
+   /* left: 9px; */
+   bottom: 55px;
+   /* width: 227%; */
+  }
+  .footer-bottom-container::before, .lower-part::after{
+   display: none;
+  }
+  .footer-bottom-container::after{
+   position: absolute;
+   left: 167px;
+  }
+  .social-icons{
+   position: relative;
+   left: -551px;
+   top: 22px;
+   width: 51%;
+   text-align-last: center;
+   text-align-last: center;
+  }
+  #foot{
+      position: relative;
+      /* bottom: -12159px; */
+      left: -81px;
+      width: 122%;
+  }
+  }
+  
+  @media (min-width: 912px) and (max-width: 1100px) {
+  
+  .button01{
+      position: relative;
+      top: -243px;
+      left: 371px;
+  }
+   
+  /* *******************************footer***************************** */
+  .a-footer{
+   font-size: 8px;
+   position: relative;
+   left: -9px;
+  }
+  .footer-links{
+   position: relative;
+   /* left: 6px; */
+   /* font-size: 25px; */
+  }
+  #h2{
+   position: relative;
+   font-size: 80px;
+   /* left: -4px; */
+  }
+  .h20001{
+   position: relative;
+   /* left: -625px; */
+   /* bottom: 1px; */
+  }
+  .h3011{
+   position: relative;
+   /* left: 69px; */
+   /* top: -37px; */
+  }
+  .lower-part{
+   position: relative;
+  }
+  .footer-main::after{
+   display: flex;
+   position: absolute;
+   width: 25%;
+   left: 56px;
+  }
+  .foot-sub-sohail{
+   position: relative;
+   /* left: 9px; */
+   /* bottom: 55px; */
+   /* width: 227%; */
+  }
+  .footer-bottom-container::before, .lower-part::after{
+   display: none;
+  }
+  .footer-bottom-container::after{
+   position: absolute;
+   left: 167px;
+  }
+  .social-icons{
+   position: relative;
+   left: -676px;
+   top: 22px;
+   width: 51%;
+   text-align-last: center;
+   text-align-last: center;
+  }
+  #foot{
+      position: relative;
+      /* bottom: -12159px; */
+      left: -81px;
+      /* width: 122%; */
+  }
+  }
+  
+  
+  
+  @media (min-width: 280px) and (max-width: 400px) {
+  
+  .center1 #h1011{
+    position: relative;
+    left: -141px;
+    top: 88px;
+    font-size: 20px;
+  }
+  .imgv1{
+    position: relative;
+  }
+  }
+  
+  @media (min-width: 401px) and (max-width: 540px) {
+  
+  .center1 #h1011{
+    position: relative;
+    left: -169px;
+    top: 56px;
+    font-size: 14px;
+  }
+  }
+  
+  @media (min-width: 541px) and (max-width: 660px) {
+  
+  .center1 #h1011{
+    position: relative;
+    left: -221px;
+    top: 62px;
+    font-size: 17px;
+  }
+  }
+  @media (min-width: 661px) and (max-width: 870px) {
+  
+  .center1 #h1011{
+    position: relative;
+    left: -283px;
+    top: 45px;
+    font-size: 18px;
+  }
+  }
+  
+  @media (min-width: 870px) and (max-width: 1000px) {
+  
+  .center1 #h1011{
+    position: relative;
+    left: -359px;
+    top: 67px;
+    font-size: 22px;
+  }
+  }
+  
+  
+  @media (min-width: 280px) and (max-width: 990px) {
+      .topofnav{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      align-items: baseline;
+      padding: 2px;
+      margin: -35px;
+      left: -2px;
+      position: relative;
+      top: -88px;
+    }
+    .nv2{
+      position: relative;
+      top: 63px;
+    }
+    .nv1{
+      position: relative;
+      top: 129px;
+      left: 8px;
+    }
+    .b1{
+      width: 329px;
+    }
+    .blinky6,.blinky7{
+      width: 315px;
+      height: 4px;
+    }
+  
+  .navLogo{
+    position: relative;
+    left: 18px;
+    font-size: 44px;
+  }
+  
+  .navBar{
+    position: relative;
+    /* width: 500%; */
+    display: flex;
+  }
+  
+  
+  }
+  @media (min-width: 911px) and (max-width: 913px){
+ .palluzz .sohail {
+      grid-template-columns: auto auto auto;
+      justify-content: space-around;
+      margin-right: -53px;
+  }
+}
+
+  @media (min-width: 900px) and (max-width: 1160px){
+.palluyy .upcomingcards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+}
+.allg1{
+  margin-top: 200px;
+}
+  }
+
+  @media (min-width: 481px) and (max-width: 780px) {
+  
+    .footer-bottom-container .p-las{
+      position: relative;
+      left: 61px;
+    }}
+  
+  @media (min-width: 280px) and (max-width: 480px) {
+    .login-button-div{
+      left: -331px;
+    }
+    .button-div{
+      left: -145px;
+    }
+    .footer-bottom-container .p-las{
+      position: relative;
+      left: 61px;
+    }
+.navLogo{
+  font-size: 34px;
+}
+.text1{
+  font-size: 23px;
+  text-align-last: center;
+  left: 47px;
+  line-height: 42px;
+  bottom: 12px;
+}
+.palwashabox #h101{
+  font-size: 44px;
+  line-height: 130px;
+  left: 59px;
+}
+.palwashabox .span01{
+  font-size: 56px;
+}
+.sulfa{
+  display: flex;
+  /* font-size: 20px; */
+}
+.text5{font-size: 43px;display: flex;}
+.btn107{
+  position: relative;
+  top: -23px;
+}
+
+  }
+    @media (min-width: 481px) and (max-width: 681px) {
+      .navLogo{
+        font-size: 34px;
+      }
+      .text1{
+        font-size: 35px;
+        width: 129%;
+        left: -15px;
+        bottom: 116px;
+      }
+      .palwashabox #h101{
+        font-size: 48px;
+        left: 60px;
+        top: -132px;
+      }
+      .palwashabox .span01{
+        font-size: 58px;
+      }
+
+
+
+    }
+      @media (min-width: 682px) and (max-width: 900px) {
+        .navLogo{
+          font-size: 44px;
+        }
+
+
+
+
+      }
+        @media (min-width: 901px) and (max-width: 1100px) {
+          .navLogo{
+            font-size: 42px;
+          }
+
+
+          
+
+        }
+
+
+
+
+
+
+.group{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  bottom: 186px;
+}
+.group-img{
+  position: relative;
+  animation: a123 15s;
+  filter: contrast(1.3);
+}
+@keyframes a123 {
+  0% {
+    transform: scale(0.55);  }
+  100% {
+    transform: scale(1.05);  }
+}
+
+
+
+
+  
+  
+.blinky {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 5px;
+              position: relative;
+              right: -346px;
+              bottom: 81px;
+              z-index: -1;
+              height: 61px;
+              background: cyan;
+              animation-name: blink;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+  
+  
+          .blinky2 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 316px;
+              left: 10px;
+              bottom: 61px;
+              position: relative;
+              height: 4px;
+              background: cyan;
+              animation-name: blink2;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink2 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+  
+  
+          .blinky3 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 32px;
+              transform: rotate(136deg);
+              left: 320px;
+              top: -76px;
+              position: relative;
+              height: 4px;
+              background: cyan;
+              animation-name: blink3;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink3 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+          .blinky4 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 32px;
+              left: 9px;
+              top: -11px;
+              transform: rotate(-136deg);
+              position: relative;
+              height: 4px;
+              background: cyan;
+              animation-name: blink4;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink4 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+  
+          .blinky5 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 336px;
+              left: 10px;
+              top: -154px;
+              position: relative;
+              height: 4px;
+              background: cyan;
+              animation-name: blink5;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink5 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+     
+  
+          .blinky6 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 280px;
+              left: 26px;
+              top: 0px;
+              position: relative;
+              bottom: 564px;
+              height: 4px;
+              background: cyan;
+              animation-name: blink6;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink6 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+  
+  
+          .blinky7 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 300px;
+              left: 6px;
+              top: -89px;
+              position: relative;
+              height: 4px;
+              background: cyan;
+              animation-name: blink7;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink7 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+  
+          .blinky8 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 4px;
+              left: 3px;
+              top: -93px;
+              position: relative;
+              bottom: 564px;
+              height: 66px;
+              background: cyan;
+              animation-name: blink8;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink8 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+  
+          .blinky9 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              position: relative;
+              width: 30px;
+              left: 0px;
+              top: -84px;
+              transform: rotate(-136deg);
+              height: 4px;
+              background: cyan;
+              animation-name: blink9;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink9 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+  
+  
+          .blinky10 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              position: relative;
+              height: 4px;
+              width: 341px;
+              left: 10px;
+              top: -89px;
+              background: cyan;
+              animation-name: blink10;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink10 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+  
+          .blinky11 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              position: relative;
+              bottom: 8px;
+              height: 4px;
+              width: 315px;
+              left: 36px;
+              background: cyan;
+              animation-name: blink11;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink11 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+  
+          .blinky12 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              position: relative;
+              height: 4px;
+              width: 316px;
+              left: 14px;
+              top: 0px;
+              background: cyan;
+              animation-name: blink12;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink12 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+  
+          .blinky13 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 336px;
+              left: 14px;
+              top: -89px;
+              position: relative;
+              bottom: 564px;
+              height: 4px;
+              background: cyan;
+              animation-name: blink13;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink13 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+  
+          .blinky14 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 66px;
+              left: 319px;
+              transform: rotate(90deg);
+              top: -62px;
+              position: relative;
+              height: 4px;
+              background: cyan;
+              animation-name: blink14;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink14 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+          .blinky15 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 32px;
+              transform: rotate(136deg);
+              left: 324px;
+              top: -22px;
+              position: relative;
+              height: 4px;
+              background: cyan;
+              animation-name: blink15;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink15 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+  
+          .blinky16 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 1327px;
+              left: 5px;
+              top: 152px;
+              position: relative;
+              bottom: 564px;
+              height: 4px;
+              background: cyan;
+              animation-name: blink16;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink16 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+  
+  
+          .blinky17 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 1327px;
+              left: 5px;
+              top: 128px;
+              position: relative;
+              bottom: 564px;
+              height: 4px;
+              background: cyan;
+              animation-name: blink17;
+              animation-timing-function: ease;
+              animation-duration: 1.1s;
+              animation-iteration-count: infinite;
+              animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+          }
+  
+          @keyframes blink17 {
+              10% {
+                  background: transparent;
+              }
+  
+              100% {
+                  background: cyan;
+              }
+          }
+  
+  
+  
+          .b1,
+          .b1::after {
+              width: 293px;
+              left: 7px;
+              height: 81px;
+              font-size: 30px;
+              cursor: pointer;
+              font-family: "Bebas Neue", cursive;
+              background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
+              border: 0;
+              text-decoration: none;
+              color: #fff;
+              letter-spacing: 3px;
+              line-height: 88px;
+              box-shadow: 6px 0px 0px #00e6f6;
+              outline: transparent;
+              position: relative;
+          }
+  
+          .b1::after {
+              --slice-0: inset(50% 50% 50% 50%);
+              --slice-1: inset(80% -6px 0 0);
+              --slice-2: inset(50% -6px 30% 0);
+              --slice-3: inset(10% -6px 85% 0);
+              --slice-4: inset(40% -6px 43% 0);
+              --slice-5: inset(80% -6px 5% 0);
+  
+              content: "Home";
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: linear-gradient(45deg,
+                      transparent 3%,
+                      #00e6f6 3%,
+                      #00e6f6 5%,
+                      #ff013c 5%);
+              text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+              clip-path: var(--slice-0);
+          }
+  
+          .b1:hover::after {
+              animation: 1s glitch;
+              animation-timing-function: steps(2, end);
+          }
+  
+          @keyframes glitch {
+              0% {
+                  clip-path: var(--slice-1);
+                  transform: translate(-20px, -10px);
+              }
+  
+              10% {
+                  clip-path: var(--slice-3);
+                  transform: translate(10px, 10px);
+              }
+  
+              20% {
+                  clip-path: var(--slice-1);
+                  transform: translate(-10px, 10px);
+              }
+  
+              30% {
+                  clip-path: var(--slice-3);
+                  transform: translate(0px, 5px);
+              }
+  
+              40% {
+                  clip-path: var(--slice-2);
+                  transform: translate(-5px, 0px);
+              }
+  
+              50% {
+                  clip-path: var(--slice-3);
+                  transform: translate(5px, 0px);
+              }
+  
+              60% {
+                  clip-path: var(--slice-4);
+                  transform: translate(5px, 10px);
+              }
+  
+              70% {
+                  clip-path: var(--slice-2);
+                  transform: translate(-10px, 10px);
+              }
+  
+              80% {
+                  clip-path: var(--slice-5);
+                  transform: translate(20px, -10px);
+              }
+  
+              90% {
+                  clip-path: var(--slice-1);
+                  transform: translate(-10px, 0px);
+              }
+  
+              100% {
+                  clip-path: var(--slice-1);
+                  transform: translate(0);
+              }
+          }
+  
+  
+  
+          .b2,
+          .b2::after {
+              width: 330px;
+              height: 81px;
+              left: 16px;
+              font-size: 30px;
+              cursor: pointer;
+              font-family: "Bebas Neue", cursive;
+              background: linear-gradient(-45deg, transparent 5%, #ff013c 5%);
+              border: 0;
+              text-decoration: none;
+              color: #fff;
+              letter-spacing: 3px;
+              line-height: 88px;
+              box-shadow: -6px 0px 0px #00e6f6;
+              outline: transparent;
+              position: relative;
+          }
+  
+  
+          .b2::after {
+              --slice-0: inset(50% 50% 50% 50%);
+              --slice-1: inset(80% -6px 0 0);
+              --slice-2: inset(50% -6px 30% 0);
+              --slice-3: inset(10% -6px 85% 0);
+              --slice-4: inset(40% -6px 43% 0);
+              --slice-5: inset(80% -6px 5% 0);
+  
+              content: "Cybernetic 2055";
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: linear-gradient(45deg,
+                      transparent 3%,
+                      #00e6f6 3%,
+                      #00e6f6 5%,
+                      #ff013c 5%);
+              text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+              clip-path: var(--slice-0);
+          }
+  
+          .b2:hover::after {
+              animation: 1s glitch;
+              animation-timing-function: steps(2, end);
+          }
+  
+          @keyframes glitch {
+              0% {
+                  clip-path: var(--slice-1);
+                  transform: translate(-20px, -10px);
+              }
+  
+              10% {
+                  clip-path: var(--slice-3);
+                  transform: translate(10px, 10px);
+              }
+  
+              20% {
+                  clip-path: var(--slice-1);
+                  transform: translate(-10px, 10px);
+              }
+  
+              30% {
+                  clip-path: var(--slice-3);
+                  transform: translate(0px, 5px);
+              }
+  
+              40% {
+                  clip-path: var(--slice-2);
+                  transform: translate(-5px, 0px);
+              }
+  
+              50% {
+                  clip-path: var(--slice-3);
+                  transform: translate(5px, 0px);
+              }
+  
+              60% {
+                  clip-path: var(--slice-4);
+                  transform: translate(5px, 10px);
+              }
+  
+              70% {
+                  clip-path: var(--slice-2);
+                  transform: translate(-10px, 10px);
+              }
+  
+              80% {
+                  clip-path: var(--slice-5);
+                  transform: translate(20px, -10px);
+              }
+  
+              90% {
+                  clip-path: var(--slice-1);
+                  transform: translate(-10px, 0px);
+              }
+  
+              100% {
+                  clip-path: var(--slice-1);
+                  transform: translate(0);
+              }
+          }
+  
+  
+          
+  
+          .b3,
+          .b3::after {
+              left: 15px;
+              width: 330px;
+              height: 81px;
+              font-size: 30px;
+              cursor: pointer;
+              font-family: "Bebas Neue", cursive;
+              background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
+              border: 0;
+              text-decoration: none;
+              color: #fff;
+              letter-spacing: 3px;
+              line-height: 88px;
+              box-shadow: 6px 0px 0px #00e6f6;
+              outline: transparent;
+              position: relative;
+          }
+  
+  
+          .b3::after {
+              --slice-0: inset(50% 50% 50% 50%);
+              --slice-1: inset(80% -6px 0 0);
+              --slice-2: inset(50% -6px 30% 0);
+              --slice-3: inset(10% -6px 85% 0);
+              --slice-4: inset(40% -6px 43% 0);
+              --slice-5: inset(80% -6px 5% 0);
+  
+              content: "Features";
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: linear-gradient(45deg,
+                      transparent 3%,
+                      #00e6f6 3%,
+                      #00e6f6 5%,
+                      #ff013c 5%);
+              text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+              clip-path: var(--slice-0);
+          }
+  
+          .b3:hover::after {
+              animation: 1s glitch;
+              animation-timing-function: steps(2, end);
+          }
+          .footer-particles-container{
+      position: relative;
+      bottom: -48px;
+  }
+  .hero-particles-container {
+          /* position: absolute; */
+          /* top: 100px; */
+          /* bottom: 40%; */
+          /* left: 70px; */
+          /* right: 0; */
+        }
+        #hero-particles{
+          display: none;
+        }
+  
+  
+          @keyframes glitch {
+              0% {
+                  clip-path: var(--slice-1);
+                  transform: translate(-20px, -10px);
+              }
+  
+              10% {
+                  clip-path: var(--slice-3);
+                  transform: translate(10px, 10px);
+              }
+  
+              20% {
+                  clip-path: var(--slice-1);
+                  transform: translate(-10px, 10px);
+              }
+  
+              30% {
+                  clip-path: var(--slice-3);
+                  transform: translate(0px, 5px);
+              }
+  
+              40% {
+                  clip-path: var(--slice-2);
+                  transform: translate(-5px, 0px);
+              }
+  
+              50% {
+                  clip-path: var(--slice-3);
+                  transform: translate(5px, 0px);
+              }
+  
+              60% {
+                  clip-path: var(--slice-4);
+                  transform: translate(5px, 10px);
+              }
+  
+              70% {
+                  clip-path: var(--slice-2);
+                  transform: translate(-10px, 10px);
+              }
+  
+              80% {
+                  clip-path: var(--slice-5);
+                  transform: translate(20px, -10px);
+              }
+  
+              90% {
+                  clip-path: var(--slice-1);
+                  transform: translate(-10px, 0px);
+              }
+  
+              100% {
+                  clip-path: var(--slice-1);
+                  transform: translate(0);
+              }
+          }
+  
+  
+  
+          .b4,
+          .b4::after {
+              width: 330px;
+              height: 81px;
+              left: 20px;
+              font-size: 30px;
+              font-family: "Bebas Neue", cursive;
+              background: linear-gradient(-45deg, transparent 5%, #ff013c 5%);
+              border: 0;
+              cursor: pointer;
+              text-decoration: none;
+              color: #fff;
+              letter-spacing: 3px;
+              line-height: 88px;
+              box-shadow: -6px 0px 0px #00e6f6;
+              outline: transparent;
+              position: relative;
+          }
+  
+          .b4::after {
+              --slice-0: inset(50% 50% 50% 50%);
+              --slice-1: inset(80% -6px 0 0);
+              --slice-2: inset(50% -6px 30% 0);
+              --slice-3: inset(10% -6px 85% 0);
+              --slice-4: inset(40% -6px 43% 0);
+              --slice-5: inset(80% -6px 5% 0);
+  
+              content: "Gaming Shop";
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: linear-gradient(45deg,
+                      transparent 3%,
+                      #00e6f6 3%,
+                      #00e6f6 5%,
+                      #ff013c 5%);
+              text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+              clip-path: var(--slice-0);
+          }
+  
+          .b4:hover::after {
+              animation: 1s glitch;
+              animation-timing-function: steps(2, end);
+          }
+  
+          @keyframes glitch {
+              0% {
+                  clip-path: var(--slice-1);
+                  transform: translate(-20px, -10px);
+              }
+  
+              10% {
+                  clip-path: var(--slice-3);
+                  transform: translate(10px, 10px);
+              }
+  
+              20% {
+                  clip-path: var(--slice-1);
+                  transform: translate(-10px, 10px);
+              }
+  
+              30% {
+                  clip-path: var(--slice-3);
+                  transform: translate(0px, 5px);
+              }
+  
+              40% {
+                  clip-path: var(--slice-2);
+                  transform: translate(-5px, 0px);
+              }
+  
+              50% {
+                  clip-path: var(--slice-3);
+                  transform: translate(5px, 0px);
+              }
+  
+              60% {
+                  clip-path: var(--slice-4);
+                  transform: translate(5px, 10px);
+              }
+  
+              70% {
+                  clip-path: var(--slice-2);
+                  transform: translate(-10px, 10px);
+              }
+  
+              80% {
+                  clip-path: var(--slice-5);
+                  transform: translate(20px, -10px);
+              }
+  
+              90% {
+                  clip-path: var(--slice-1);
+                  transform: translate(-10px, 0px);
+              }
+  
+              100% {
+                  clip-path: var(--slice-1);
+                  transform: translate(0);
+              }
+          }
+  
+  
+  
+  
+          .b5,
+          .b5::after {
+              width: 358px;
+              height: 85px;
+              font-size: 36px;
+              font-family: "Bebas Neue", cursive;
+              background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
+              border: 0;
+              cursor: pointer;
+              text-decoration: none;
+              color: #fff;
+              letter-spacing: 3px;
+              line-height: 88px;
+              box-shadow: 6px 0px 0px #00e6f6;
+              outline: transparent;
+              position: relative;
+          }
+  
+          .b5::after {
+              --slice-0: inset(50% 50% 50% 50%);
+              --slice-1: inset(80% -6px 0 0);
+              --slice-2: inset(50% -6px 30% 0);
+              --slice-3: inset(10% -6px 85% 0);
+              --slice-4: inset(40% -6px 43% 0);
+              --slice-5: inset(80% -6px 5% 0);
+  
+              content: "Contact Us";
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: linear-gradient(45deg,
+                      transparent 3%,
+                      #00e6f6 3%,
+                      #00e6f6 5%,
+                      #ff013c 5%);
+              text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+              clip-path: var(--slice-0);
+          }
+  
+          .b5:hover::after {
+              animation: 1s glitch;
+              animation-timing-function: steps(2, end);
+          }
+  
+          @keyframes glitch {
+              0% {
+                  clip-path: var(--slice-1);
+                  transform: translate(-20px, -10px);
+              }
+  
+              10% {
+                  clip-path: var(--slice-3);
+                  transform: translate(10px, 10px);
+              }
+  
+              20% {
+                  clip-path: var(--slice-1);
+                  transform: translate(-10px, 10px);
+              }
+  
+              30% {
+                  clip-path: var(--slice-3);
+                  transform: translate(0px, 5px);
+              }
+  
+              40% {
+                  clip-path: var(--slice-2);
+                  transform: translate(-5px, 0px);
+              }
+  
+              50% {
+                  clip-path: var(--slice-3);
+                  transform: translate(5px, 0px);
+              }
+  
+              60% {
+                  clip-path: var(--slice-4);
+                  transform: translate(5px, 10px);
+              }
+  
+              70% {
+                  clip-path: var(--slice-2);
+                  transform: translate(-10px, 10px);
+              }
+  
+              80% {
+                  clip-path: var(--slice-5);
+                  transform: translate(20px, -10px);
+              }
+  
+              90% {
+                  clip-path: var(--slice-1);
+                  transform: translate(-10px, 0px);
+              }
+  
+              100% {
+                  clip-path: var(--slice-1);
+                  transform: translate(0);
+              }
+          }
+  
+          .topofnav {
+              position: relative;
+              display: flex;
+              flex-direction: row;
+              flex: 1;
+              top: 12px;
+              /* left: -71px; */
+              width: 100%;
+              z-index: 1;
+          }
+  
+  
+  
+  
+  
+  
+  
+  
+          .navBar {
+    animation-name: leftslide001;
+    animation-duration: 1.8s;
+    max-height: 500px;
+    max-width: 100%;
+    margin-bottom: 224px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  @keyframes leftslide001 {
+    from {
+      transform: translateY(-700px);
+    }
+    to {
+      transform: translateY(0px);
+    }
+  }
+  
+  @media (min-width: 251px) and (max-width: 1300px) {
+    
+  
+    .ma .container-card .outline {
+     margin-bottom: 18px;
+    }
+  }
+  
+  .imgv1 {
+    animation-name: leftslide0011;
+    animation-duration: 1.8s;
+    max-height: 500px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  @keyframes leftslide0011 {
+    from {
+      transform: translateY(-700px);
+    }
+    to {
+      transform: translateY(0px);
+    }
+  }
+  
+    
+  .palwashapage {
+    margin: 0 auto;
+    /* padding: 0 14px; */
+    position: relative;
+    max-width: 1337px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* background-color: #000000; */
+  }
+  .palwashapage::before {
+    content: "";
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    left: 60%;
+    top: 131px;
+    filter: blur(90px);
+    background-color: #FB37FF;
+  }
+  .palwashapage::after {
+    content: "";
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    left: 10%;
+    top: 471px;
+    background-color: #18B2DE;
+    filter: blur(102px);
+  }
+
+
+    </style>
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+  <div class="palwashapage">
+
+  <header class="active-topnav" data-header>
+    <div class="container-topnav">
+  
+      <!-- 
+        - overlay-topnav
+      -->
+      <div class="overlay-topnav" data-overlay-topnav></div>
+  
+  
+      <button class="nav-toggle-btn" data-nav-toggle-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+  
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+  
+          <li class="navbar-item">
+            <a href="./index.html" class="navbar-link">Home</a>
+          </li>
+  
+          <li class="navbar-item">
+            <a href="./All Games.html" class="navbar-link">All Games</a>
+          </li>
+  
+          <li class="navbar-item">
+            <a href="./X1 Collection.html" class="navbar-link">X1 Collection</a>
+          </li>
+  
+  
+          <li class="navbar-item">
+            <a href="./Y1 Collection.html" class="navbar-link">Y1 Collection</a>
+          </li>
+  
+        </ul>
+  
+        <div class="navbar-actions">
+  
+    
+  
+        </div>
+      </nav>
+  
+    </div>
+  </header>
+  
+  <div class="topofnav">
+    <div class="nv1"> <a href="./Index.html"> <button class="b1">Home</button></a>
+        <div class="blinky6"></div>
+        <div class="blinky7"></div>
+        <div class="blinky8"></div>
+        <div class="blinky9"></div>
+  </div>
+    <div class="nv2"> <a href="./All Games.html"> <button class="b2">All Games</button></a>
+        <div class="blinky"></div>
+        <div class="blinky2"></div>
+        <div class="blinky3"></div>
+        <div class="blinky5"></div>
+  
+    </div>
+    <div class="nv3"> <a href="./X1 Collection.html"> <button class="b3">X1 Collection</button></a>
+        <div class="blinky4"></div>
+        <div class="blinky10"></div>
+        <div class="blinky11"></div>
+  
+    </div>
+    <div class="nv4"> <a href="./Y1 Collection.html"> <button class="b4">Y1 Collection</button></a>
+        <div class="blinky12"></div>
+        <div class="blinky13"></div>
+        <div class="blinky14"></div>
+        <div class="blinky15"></div>
+  
+    </div>
+  </div>
+
+
+
+<div class="RS-TOP">
+  <div class="RS-1">
+    <div class="text">Cybernetic Contact us Form</div>
+    <form action="#">
+       <div class="form-row">
+          <div class="input-data">
+             <input type="text" required>
+             <div class="underline"></div>
+             <label for="">First Name</label>
+          </div>
+          <div class="input-data">
+             <input type="text" required>
+             <div class="underline"></div>
+             <label for="">Last Name</label>
+          </div>
+       </div>
+       <div class="form-row">
+          <div class="input-data">
+             <input type="text" required>
+             <div class="underline"></div>
+             <label for="">Email Address</label>
+          </div>
+          <div class="input-data">
+             <input type="text" required>
+             <div class="underline"></div>
+             <label for="">Query Title</label>
+          </div>
+       </div>
+       <div class="form-row">
+          <div class="input-data textarea">
+             <textarea rows="8" cols="80" required></textarea>
+             <br />
+             <div class="underline"></div>
+             <label for="">Write your message</label>
+             <br />
+             <div class="form-row submit-btn">
+                <div class="input-data as1">
+                   <div class="inner"></div>
+                   <input  type="submit" value="submit">
+                </div>
+             </div>
+          </div>
+       </div>
+    </form>
+ </div>
+</div>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+ 
+
+<!-- ********************************Footer***************************************** -->
+
+<footer id="foot">
+  <div class='footer-main'>
+    <div class="foot-subb">
+      <ul class="footer-links">
+        <li class="links"><a class="a-footer" href="./Index.html">Home Page</a></li>
+        <li class="links"><a class="a-footer" href="./All Games.html">All Games</a></li>
+        <li class="links"><a class="a-footer" href="./X1 Collection.html">X1 Collection</a></li>
+        <li class="links"><a class="a-footer" href="./Y1 Collection.html">Y1 Collection</a></li>
+        <li class="links"><a class="a-footer" href="#">Home</a></li>
+      </ul>
+    </div>
+    <div class="foot-sub-sohail">
+      <a class="h20001" href="#"><h2 id="h2" class="h20001">Cybernatic Gaming Store</h2></a>
+      <h3 class="h3011">© 2022 Cybernetic. All rights reserved. </h3>
+
+      <div class="lower-part">
+          <!-- <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline position"> 
+          <li class="icons"><a href="#"><i class="fa fa-adn"></i></a> </li> 
+          <li class="icons"><a href="#"><i class="fa fa-android"></i></a> </li>   
+          <li class="icons"> <a href="#"><i class="fa fa-apple"></i></a> </li>
+          <li class="icons"> <a href="#"><i class="fa fa-bitbucket"></i></a> </li> 
+          <li class="icons"> <a href="#"><i class="fa fa-bitcoin"></i></a> </li> 
+          <li class="icons"> <a href="#"><i class="fa fa-css3"></i></a> </li> 
+          <li class="icons"> <a href="#"><i class="fa fa-dribbble"></i></a></li> 
+          <li class="icons"> <a href="#"><i class="fa fa-flickr"></i></a></li> 
+        </ul> -->
+        <div class="ft-img"><img class="ft-sub-img" src="./Assets/1.gif" alt=""></div>
+      </div>
+    </div>
+    <div class="foot-inner-logo">
+      <div class="footer-logo-container"><a><img class="img-footer" src="" alt=""></a></div>
+    </div>
+  </div>
+  <div class="footer-bottom-container">
+    <p class="p-las">The Cybernetic Gaming Shop Is Part Of Cybernetic 2055 Concept By aDxZhang</p>
+  </div>
+</footer>
+
+</div>
+
+
+
+
+
+  
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+<script>
+
+
+
+'use strict';
+
+
+
+/**
+ * element toggle function
+ */
+
+ const elemToggleFunc = function (elem) { elem.classList.toggle("active-topnav"); }
+
+
+
+/**
+ * navbar variables
+ */
+
+const navbar = document.querySelector("[data-navbar]");
+const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
+const overlay = document.querySelector("[data-overlay-topnav]");
+
+const navElemArr = [navToggleBtn, overlay];
+
+for (let i = 0; i < navElemArr.length; i++) {
+
+  navElemArr[i].addEventListener("click", function () {
+    elemToggleFunc(navbar);
+    elemToggleFunc(overlay);
+  });
+
+}
+
+
+
+
+
+
+</script>
+</body>
+
+</html>

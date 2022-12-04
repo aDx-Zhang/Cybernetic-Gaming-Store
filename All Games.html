@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>All Games</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&amp;display=swap'><link rel="stylesheet" href="">
+    <script src="https://kit.fontawesome.com/4176405dd7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link rel="stylesheet" href="./CSS/All Games.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+  integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/bad7f7f5d4.js" crossorigin="anonymous"></script>
+
+<Style>
+@media (min-width: 252px) and (max-width:521px){
+
+.hero{
+  margin-left: -32px;
+}
+
+
+
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 780px) {
+  
+  .footer-bottom-container .p-las{
+    position: relative;
+    left: 61px;
+  }}
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .login-button-div{
+    left: -331px;
+  }
+  .button-div{
+    left: -145px;
+  }
+  .footer-bottom-container .p-las{
+    position: relative;
+    left: 61px;
+  }
+}
+/*-----------------------------------*\
+  #HEADER
+\*-----------------------------------*/
+
+header {
+  position: absolute;
+  top: -90px;
+  left: 0;
+  width: 100%;
+  padding-block: 15px;
+  /* box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.5); */
+  /* background:  hsl(252, 80%, 16%); */
+  transition: 0.25s ease-in-out;
+  z-index: 4;
+}
+
+header.active-topnav {top: 0;/* background:  hsl(252, 80%, 16%); */}
+
+header .container-topnav {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  justify-content: flex-end;
+  margin-right: 12px;
+}
+
+.nav-toggle-btn {
+  color: hsl(0deg 0% 100%);
+  font-size: 35px;
+  border-radius: 4px;
+  background: linear-gradient(93.51deg, rgb(217 0 192 / 58%) 2.84%, #00ffc4ab 99.18%);
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+}
+
+.nav-toggle-btn ion-icon { --ionicon-stroke-width: 40px; }
+
+.navbar {
+  position: fixed;
+  bottom: -270px;
+  left: 0;
+  width: 100%;
+  background:  hsl(252, 80%, 16%);
+  border-radius: 8px 8px 0 0;
+  padding: 30px 10px 10px;
+  box-shadow: 0 -1px 10px hsla(0, 0%, 0%, 0.5);
+  z-index: 2;
+  visibility: hidden;
+  transition: 0.15s ease-in;
+}
+
+.navbar.active-topnav {
+  bottom: 0;
+  visibility: visible;
+  transition: 0.25s ease-out;
+}
+
+.navbar-list {
+  padding-bottom: 5px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
+  margin-bottom: 5px;
+  font-family: 'k';
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar::before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 4px;
+  background: hsla(0, 0%, 100%, 0.05);
+  border-radius: 5px;
+}
+
+.navbar-link {
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.navbar-link:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
+
+.navbar-actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.navbar-btn {
+  color: hsl(0, 0%, 100%);
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.navbar-btn:is(:hover, :focus),
+.navbar-actions .btn:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
+
+.overlay-topnav {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  transition: 0.25s ease-in-out;
+}
+
+.overlay-topnav.active-topnav {
+  pointer-events: all;
+  background: hsla(0, 0%, 0%, 0.7);
+}
+.navbar-item{
+  padding: 7px;
+}
+
+
+/*-----------------------------------*\
+  #RESPONSIVE
+\*-----------------------------------*/
+
+@media (min-width: 550px) {
+
+  .container-topnav {
+    /* max-width: 500px; */
+    /* margin-inline: auto; */
+  }
+  
+
+}
+
+
+
+
+
+
+
+/**
+ * responsive for larger than 1024px
+ */
+
+@media (min-width: 1100px) {
+
+  /**
+   * REUSED STYLE
+   */
+
+  .container-topnav { max-width: 980px; }
+
+
+
+  /**
+   * HEADER
+   */
+
+  header { top: -120px; }
+
+  .nav-toggle-btn { display: none; }
+
+  .navbar {
+    position: static;
+    visibility: visible;
+    box-shadow: none;
+    padding: 0;
+    background: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background:  hsl(252, 80%, 16%); */
+    gap: 30px;
+  }
+
+  .navbar-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-link { position: relative; }
+
+  .navbar-link::after {
+    --scale: 0;
+
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(var(--scale));
+    transform-origin: left;
+    width: calc(100% - 20px);
+    height: 2px;
+    background: linear-gradient(to right,  hsl(178, 100%, 49%), hsl(221, 100%, 50%));
+    transition: 0.25s ease-in-out;
+  }
+  .input-search::after {
+    --scale: 0;
+
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(var(--scale));
+    transform-origin: left;
+    width: calc(100% - 20px);
+    height: 2px;
+    background: linear-gradient(to right,  hsl(178, 100%, 49%), hsl(221, 100%, 50%));
+    transition: 0.25s ease-in-out;
+  }
+  .navbar-link:is(:hover, :focus) {
+    background: linear-gradient(to right,  hsl(178, 100%, 49%), hsl(221, 100%, 50%));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  .navbar-link:is(:hover, :focus)::after { --scale: 1; }
+
+  .navbar-actions { gap: 10px; }
+
+  .navbar-actions .btn {
+    background: hsl(221, 100%, 50%);
+    padding: 15px 25px;
+    transition: background 0.25s ease-in-out;
+  }
+
+  .navbar-actions .btn:is(:hover, :focus) { background: hsl(221, 100%, 40%); }
+
+  .navbar::before,
+  .overlay-topnav { display: none; }
+
+
+}
+
+@media (min-width: 1100px) and (max-width: 3000px) { 
+
+.active-topnav{
+  display: none;
+}
+}
+@media (min-width: 200px) and (max-width: 1099px) { 
+
+.topofnav{
+  display: none;
+}
+.navBar{
+  margin-top: 100px;
+}
+}
+
+
+
+    </style>
+</head>
+<body>
+  <div class="palwashapage">
+
+  <div class="up">
+    
+    <!-- **********************************This is NavBar*************************************** -->
+
+    <header class="active-topnav" data-header>
+      <div class="container-topnav">
+    
+        <!-- 
+          - overlay-topnav
+        -->
+        <div class="overlay-topnav" data-overlay-topnav></div>
+    
+    
+        <button class="nav-toggle-btn" data-nav-toggle-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+    
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+    
+            <li class="navbar-item">
+              <a href="./index.html" class="navbar-link">Home</a>
+            </li>
+    
+            <li class="navbar-item">
+              <a href="./All Games.html" class="navbar-link">All Games</a>
+            </li>
+    
+            <li class="navbar-item">
+              <a href="./X1 Collection.html" class="navbar-link">X1 Collection</a>
+            </li>
+    
+    
+            <li class="navbar-item">
+              <a href="./Y1 Collection.html" class="navbar-link">Y1 Collection</a>
+            </li>
+    
+          </ul>
+    
+          <div class="navbar-actions">
+    
+      
+    
+          </div>
+        </nav>
+    
+      </div>
+    </header>
+    
+    <div class="topofnav">
+      <div class="nv1"> <a href="./Index.html"> <button class="b1">Home</button></a>
+          <div class="blinky6"></div>
+          <div class="blinky7"></div>
+          <div class="blinky8"></div>
+          <div class="blinky9"></div>
+   </div>
+      <div class="nv2"> <a href="./All Games.html"> <button class="b2">All Games</button></a>
+          <div class="blinky"></div>
+          <div class="blinky2"></div>
+          <div class="blinky3"></div>
+          <div class="blinky5"></div>
+  
+      </div>
+      <div class="nv3"> <a href="./X1 Collection.html"> <button class="b3">X1 Collection</button></a>
+          <div class="blinky4"></div>
+          <div class="blinky10"></div>
+          <div class="blinky11"></div>
+  
+      </div>
+      <div class="nv4"> <a href="./Y1 Collection.html"> <button class="b4">Y1 Collection</button></a>
+          <div class="blinky12"></div>
+          <div class="blinky13"></div>
+          <div class="blinky14"></div>
+          <div class="blinky15"></div>
+  
+      </div>
+   </div>
+    </div>
+
+    
+
+
+
+
+
+    <section class="hero">
+      <div class="container">
+        <!-- Small Star Top -->
+        <img src="./Assets/big-star.svg" class="star-top" alt="" />
+
+        <div class="hero-content">
+          <!-- Purple Dot 1-->
+          <img
+            src="./Assets/purple-dot.svg"
+            class="purple-dot-one"
+            alt=""
+          />
+
+          <!-- Purple Dot 2-->
+          <img
+            src="./Assets/purple-dot.svg"
+            class="purple-dot-two"
+            alt=""
+          />
+
+          <div class="hero-content-text">
+            <div class="hero-top-text">Cybernetic Cyber Gaming Store</div>
+
+            <h1 class="hero-title-primary">Cybernetic Gaming</h1>
+
+            <h2 class="hero-title-secondary">
+              Collection
+
+              <span class="color-text-box">
+                <span class="color-text">-2023-</span>
+              </span>
+            </h2>
+
+            <p class="hero-p">
+              +1,000 of the best works that will spoil your eyes
+            </p>
+
+            <div class="hero-cta-container">
+              <a href="./X1 Collection.html" class="btn btn-prime">X1 Category</a>
+              <a href="./Y1 Collection.html" class="btn btn-prime-border">Y1 Category</a>
+            </div>
+          </div>
+
+          <div class="hero-content-img-area">
+            <div class="hero-img"></div>
+            <div class="hero-img"></div>
+            <div class="hero-img"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <div class="pallutittle">
+        <p>All Available Cost Efficient Games</p>
+        <div class="pallufilter">
+          <div class="filter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 14 12">
+    <path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:#f2f2f2;stroke-opacity:1;stroke-miterlimit:4" d="M1.731 1.002h13.1976M1.731 4.998h9.134M1.731 9h6.0893m4.0636 0 4.0575-4.002m0 0L20.005 9m-4.0636-4.002v12" transform="scale(.63636 .66667)"/>
+  </svg>
+            Category
+          </div>
+          <div class="filter">
+            Cheapest
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" viewBox="0 0 11 6">
+    <path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:#f2f2f2;stroke-opacity:1;stroke-miterlimit:4" d="M15.4787 1.002 8.3732 7.998 1.2678 1.002" transform="scale(.64706 .66667)"/>
+  </svg>
+          </div>
+          <div class="filter">
+            Newest
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" viewBox="0 0 11 6">
+    <path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:#f2f2f2;stroke-opacity:1;stroke-miterlimit:4" d="M15.4787 1.002 8.3732 7.998 1.2678 1.002" transform="scale(.64706 .66667)"/>
+  </svg>
+          </div>
+          <button  class="button0001" id="filter-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 14 14">
+    <path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:#fff;stroke-opacity:1;stroke-miterlimit:4" d="M1.1546 1.9978c0-.5525.4553-.999 1.0028-.999h16.273c.5537 0 1.0028.4465 1.0028.999v2.578c0 .2735-.1046.5358-.3014.72l-6.5092 6.4062c-.1846.1897-.2953.4464-.2953.7199V15l-4.0606 4.0011V12.422c0-.2735-.1046-.5302-.3015-.7199l-6.503-6.4062c-.1907-.1842-.3076-.4465-.3076-.72Zm0 0" transform="matrix(.63492 0 0 .7 .3333 0)"/>
+  </svg>
+            Filter
+          </button>
+          <div id="filter-container" class="filters">
+            <ul class="filters__list">
+              <li>
+            <input id="f1" type="checkbox" />
+              <label for="f1">High To Low $</label>
+              </li>
+                  <li>
+            <input id="f2" type="checkbox" />
+              <label for="f2">Low To High $</label>
+              </li>
+                  <li>
+            <input id="f3" type="checkbox" />
+              <label for="f3">Sort By Name</label>
+              </li>
+  
+              
+            </ul></div>
+  
+  
+  
+        </div>
+      </div>
+
+
+      <div class="searchbar1">
+        <form class="form1" action="">
+        <input class="input1" type="search" placeholder="         Type Here / Search!!">
+         <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        </div>
+
+
+       
+        <div class="sohail">
+
+          <div class="item rgb">
+            <div class="item-image item2 d1"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+              <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+    
+    
+          <div class="item rgb">
+            <div class="item-image item2 d2"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+    
+          <div class="item rgb">
+            <div class="item-image item2 d3"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+    
+    
+          <div class="item rgb">
+            <div class="item-image item2 d4"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+    
+    
+          <div class="item rgb">
+            <div class="item-image item2 d5"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+    
+          <div class="item rgb">
+            <div class="item-image item2 d6"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+    
+          <div class="item rgb">
+            <div class="item-image item2 d7"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+    
+          <div class="item rgb">
+            <div class="item-image item2 d8"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+    
+    
+          <div class="item rgb">
+            <div class="item-image item2 d9"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d10"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+    
+          <div class="item rgb">
+            <div class="item-image item2 d11"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+    
+          <div class="item rgb">
+            <div class="item-image item2 d12"></div>
+            <div class="item-text item2">
+              <span class="date">Category Here</span>
+              <h2>Game Name </h2>
+              <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+            </div>
+            <div class="button-wrapper-card01"> 
+               <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn btn-5">Download Now</button></a>
+    
+             </div>
+          </div>
+     
+    
+
+
+    </div>
+        
+
+
+
+<!-- PAGINATION -->
+<div class="pagination">
+    <a href="#"><div><</div></a>
+    <a href="#"><div>1</div></a>
+    <a href="#"><div>2</div></a>
+    <a href="#"><div>3</div></a>
+    <a href="#"><div>></div></a>
+</div>
+
+
+
+  <!-- ********************************Footer***************************************** -->
+
+<!-- ********************************Footer***************************************** -->
+
+<footer id="foot">
+  <div class='footer-main'>
+    <div class="foot-subb">
+      <ul class="footer-links">
+        <li class="links"><a class="a-footer" href="./Index.html">Home Page</a></li>
+        <li class="links"><a class="a-footer" href="./All Games.html">All Games</a></li>
+        <li class="links"><a class="a-footer" href="./X1 Collection.html">X1 Collection</a></li>
+        <li class="links"><a class="a-footer" href="./Y1 Collection.html">Y1 Collection</a></li>
+        <li class="links"><a class="a-footer" href="#">Home</a></li>
+      </ul>
+    </div>
+    <div class="foot-sub-sohail">
+      <a class="h20001" href="#"><h2 id="h2" class="h20001">Cybernatic Gaming Store</h2></a>
+      <h3 class="h3011">© 2022 Cybernetic. All rights reserved. </h3>
+
+      <div class="lower-part">
+          <!-- <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline position"> 
+          <li class="icons"><a href="#"><i class="fa fa-adn"></i></a> </li> 
+          <li class="icons"><a href="#"><i class="fa fa-android"></i></a> </li>   
+          <li class="icons"> <a href="#"><i class="fa fa-apple"></i></a> </li>
+          <li class="icons"> <a href="#"><i class="fa fa-bitbucket"></i></a> </li> 
+          <li class="icons"> <a href="#"><i class="fa fa-bitcoin"></i></a> </li> 
+          <li class="icons"> <a href="#"><i class="fa fa-css3"></i></a> </li> 
+          <li class="icons"> <a href="#"><i class="fa fa-dribbble"></i></a></li> 
+          <li class="icons"> <a href="#"><i class="fa fa-flickr"></i></a></li> 
+        </ul> -->
+        <div class="ft-img"><img class="ft-sub-img" src="./Assets/1.gif" alt=""></div>
+      </div>
+    </div>
+    <div class="foot-inner-logo">
+      <div class="footer-logo-container"><a><img class="img-footer" src="" alt=""></a></div>
+    </div>
+  </div>
+  <div class="footer-bottom-container">
+    <p class="p-las">The Cybernetic Gaming Shop Is Part Of Cybernetic 2055 Concept By aDxZhang</p>
+  </div>
+</footer>
+</div>
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+              <script>
+
+
+
+// ******************************Searchbar*****************************************
+
+
+//         const search = document.querySelector('.input1');
+// const clearBtn = document.querySelector('.input1');
+// const itemsContainer = document.querySelector('.sohail');
+// const pagination = document.querySelector('.pagination')
+
+// // Smooth scale effect transition
+// const items = itemsContainer.querySelectorAll('.item');
+
+// Array.from(items).forEach(function(item){
+//     // console.log(item);
+//     item.addEventListener('mouseenter', scaleOut);
+//     item.addEventListener('mouseleave', scaleIn);
+
+//     /*
+//     // Code snippet is not part of project
+//     item.addEventListener('click', changeColor)
+    
+//     function changeColor(e) {
+//         e.target.style.backgroundColor = 'red';
+//         console.log(e.target.classList.contains('itemkam-soh'))
+//     }
+//     */
+// })
+
+// // Scale out event
+// function scaleOut(e){
+//     // console.log(e)
+//     e.target.style.transform = `scale(1.05)`
+//     e.target.style.transition = `0.7s` 
+// }
+
+// // Scale in event
+// function scaleIn(e){
+//     // console.log(e)
+//     e.target.style.transform = `scale(1)`
+//     e.target.style.transition = `0.7s` 
+// }
+
+// // Search input event
+// search.addEventListener('input', searchEvent);
+
+// // Clear input field
+// clearBtn.addEventListener('click', deleteEvent);
+
+// // Filter items
+// function searchEvent(e){
+//     // Display clear button when input is fired
+//     if(e.target.value.length > 0){
+//         clearBtn.style.display = 'block';
+//         pagination.style.display = 'none'
+//     } else {
+//         clearBtn.style.display = 'none';
+//         // Reload browser
+//         // location.reload();
+//     }
+
+//     // console.log(e.target.value)
+
+//     // Convert text value to lowercase
+//     const text = e.target.value.toLowerCase();
+//     // Get the items in Array
+//     const items = itemsContainer.querySelectorAll('.item');
+//     // Convert items to an iterable array
+//     Array.from(items).forEach(function(item){
+//         const itemListName = item.children[1].textContent;
+//         // console.log(item)
+//         if(itemListName.toLowerCase().indexOf(text) != -1){
+//             item.style.display = 'block';
+//         } else {
+//             item.style.display = 'none';
+//         }
+//     })
+
+// }
+
+// // Delete event
+// function deleteEvent(e){
+//     search.value = '';
+// }
+// //     e.target.style.display = 'none'
+
+// //     // Reload the browser
+// //     location.reload();
+// // }
+
+
+
+
+
+
+// -----------------------------------------------------------------------------------------
+
+
+
+
+
+var button = document.getElementById("filter-button");
+  var container = document.getElementById("filter-container");
+  var input = document.querySelectorAll("input");
+  
+  button.onclick = function (e) {
+    e.stopPropagation();
+    if (container.classList.contains("filters--active")) {
+      container.classList.remove("filters--active");
+    } else {
+      container.classList.add("filters--active");
+    }
+  };
+  
+  container.onclick = function (e) {
+    e.stopPropagation();
+  };
+  
+  window.onclick = function () {
+    container.classList.remove("filters--active");
+  };
+  
+  console.log(input);
+  
+  for (var i = 0; i < input.length; i++) {
+    var currentInput = input[i];
+  
+    currentInput.onclick = function () {
+      var isChecked = false;
+      for (var j = 0; j < input.length; j++) {
+        if (input[j].checked) {
+          isChecked = true;
+          break;
+        }
+      }
+  
+      if (isChecked) {
+        button.classList.add("button0001--highlight");
+      } else {
+        button.classList.remove("button0001--highlight");
+      }
+    };
+  }
+  
+/**
+ * element toggle function
+ */
+
+ const elemToggleFunc = function (elem) { elem.classList.toggle("active-topnav"); }
+
+
+
+/**
+ * navbar variables
+ */
+
+const navbar = document.querySelector("[data-navbar]");
+const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
+const overlay = document.querySelector("[data-overlay-topnav]");
+
+const navElemArr = [navToggleBtn, overlay];
+
+for (let i = 0; i < navElemArr.length; i++) {
+
+  navElemArr[i].addEventListener("click", function () {
+    elemToggleFunc(navbar);
+    elemToggleFunc(overlay);
+  });
+
+}
+
+
+    </script>
+
+</body>
+</html>

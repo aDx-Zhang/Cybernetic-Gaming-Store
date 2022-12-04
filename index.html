@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <title>Gaming Shop</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+<link rel="stylesheet" href="./CSS/index.css">
+<script src="https://kit.fontawesome.com/bad7f7f5d4.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jsbarcode/3.5.1/JsBarcode.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.min.css">
+    <script src="https://kit.fontawesome.com/4176405dd7.js" crossorigin="anonymous"></script>
+   
+    <script src="https://kit.fontawesome.com/bad7f7f5d4.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+
+
+    <style>
+.twobtn{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -106px;
+}
+@media (min-width: 352px) and (max-width:401px){
+
+.allg2{
+  font-size: 25px;
+}
+}
+@media (min-width: 250px) and (max-width:351px){
+
+.allg1{margin-top: 200px;font-size: 20px;}
+.allg2{
+  font-size: 20px;
+}
+}
+
+@media (min-width: 200px) and (max-width:340px){
+.palwashabox .span01 {
+    font-size: 47px;
+}
+.text1 {
+    font-size: 19px;
+    text-align-last: center;
+    left: 39px;
+    line-height: 42px;
+    bottom: 12px;
+}
+.palwashabox #h101 {
+    font-size: 42px;
+    line-height: 130px;
+    left: 22px;
+}
+.login-button{font-size: 16px;position: relative;left: 463px;;}
+.l-button{
+  font-size: 17px;
+  position: relative;
+  left: 5px;
+}
+}
+.cards:nth-child(1):before {
+    background-image: url(./Assets/BlurredCards/0.png);
+  }
+  .cards:nth-child(2):before {
+    background-image: url(./Assets/BlurredCards/00.jpg);
+  }
+  .cards:nth-child(3):before {
+    background-image: url(./Assets/BlurredCards/000.jfif);
+  }
+  .cards:nth-child(4):before {
+    background-image: url(./Assets/BlurredCards/0000.jfif);
+  }
+
+
+  .a001{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    font-family: 'a';
+    color: #00ffc4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 0px;
+    overflow: hidden;
+    font-weight: 900;
+    left: 127px;
+    top: 13px;
+    margin-right: 50px;
+}
+.a001:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.a001:nth-child(1){
+    filter: hue-rotate(341deg);
+}
+
+.a001 .span001{
+    position: absolute;
+    display: block;
+}
+.a001 .span001:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+.a001 .span001:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+.a001 .span001:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+
+
+.a001 .span001:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
+
+/*-----------------------------------*\
+  #HEADER
+\*-----------------------------------*/
+
+header {
+  position: absolute;
+  top: -90px;
+  left: 0;
+  width: 100%;
+  padding-block: 15px;
+  /* box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.5); */
+  /* background:  hsl(252, 80%, 16%); */
+  transition: 0.25s ease-in-out;
+  z-index: 4;
+}
+
+header.active-topnav {top: 0;/* background:  hsl(252, 80%, 16%); */}
+
+header .container-topnav {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  justify-content: flex-end;
+  margin-right: 12px;
+}
+
+.nav-toggle-btn {
+  color: hsl(0deg 0% 100%);
+  font-size: 35px;
+  border-radius: 4px;
+  background: linear-gradient(93.51deg, rgb(217 0 192 / 58%) 2.84%, #00ffc4ab 99.18%);
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+}
+
+.nav-toggle-btn ion-icon { --ionicon-stroke-width: 40px; }
+
+.navbar {
+  position: fixed;
+  bottom: -270px;
+  left: 0;
+  width: 100%;
+  background:  hsl(252, 80%, 16%);
+  border-radius: 8px 8px 0 0;
+  padding: 30px 10px 10px;
+  box-shadow: 0 -1px 10px hsla(0, 0%, 0%, 0.5);
+  z-index: 2;
+  visibility: hidden;
+  transition: 0.15s ease-in;
+}
+
+.navbar.active-topnav {
+  bottom: 0;
+  visibility: visible;
+  transition: 0.25s ease-out;
+}
+
+.navbar-list {
+  padding-bottom: 5px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
+  margin-bottom: 5px;
+  font-family: 'k';
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar::before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 4px;
+  background: hsla(0, 0%, 100%, 0.05);
+  border-radius: 5px;
+}
+
+.navbar-link {
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.navbar-link:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
+
+.navbar-actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.navbar-btn {
+  color: hsl(0, 0%, 100%);
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.navbar-btn:is(:hover, :focus),
+.navbar-actions .btn:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
+
+.overlay-topnav {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  transition: 0.25s ease-in-out;
+}
+
+.overlay-topnav.active-topnav {
+  pointer-events: all;
+  background: hsla(0, 0%, 0%, 0.7);
+}
+.navbar-item{
+  padding: 7px;
+}
+
+
+/*-----------------------------------*\
+  #RESPONSIVE
+\*-----------------------------------*/
+
+@media (min-width: 550px) {
+
+  .container-topnav {
+    /* max-width: 500px; */
+    /* margin-inline: auto; */
+  }
+  
+
+}
+
+
+
+
+
+
+
+/**
+ * responsive for larger than 1024px
+ */
+
+@media (min-width: 1100px) {
+
+  /**
+   * REUSED STYLE
+   */
+
+  .container-topnav { max-width: 980px; }
+
+
+
+  /**
+   * HEADER
+   */
+
+  header { top: -120px; }
+
+  .nav-toggle-btn { display: none; }
+
+  .navbar {
+    position: static;
+    visibility: visible;
+    box-shadow: none;
+    padding: 0;
+    background: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background:  hsl(252, 80%, 16%); */
+    gap: 30px;
+  }
+
+  .navbar-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-link { position: relative; }
+
+  .navbar-link::after {
+    --scale: 0;
+
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(var(--scale));
+    transform-origin: left;
+    width: calc(100% - 20px);
+    height: 2px;
+    background: linear-gradient(to right,  hsl(178, 100%, 49%), hsl(221, 100%, 50%));
+    transition: 0.25s ease-in-out;
+  }
+  .input-search::after {
+    --scale: 0;
+
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(var(--scale));
+    transform-origin: left;
+    width: calc(100% - 20px);
+    height: 2px;
+    background: linear-gradient(to right,  hsl(178, 100%, 49%), hsl(221, 100%, 50%));
+    transition: 0.25s ease-in-out;
+  }
+  .navbar-link:is(:hover, :focus) {
+    background: linear-gradient(to right,  hsl(178, 100%, 49%), hsl(221, 100%, 50%));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  .navbar-link:is(:hover, :focus)::after { --scale: 1; }
+
+  .navbar-actions { gap: 10px; }
+
+  .navbar-actions .btn {
+    background: hsl(221, 100%, 50%);
+    padding: 15px 25px;
+    transition: background 0.25s ease-in-out;
+  }
+
+  .navbar-actions .btn:is(:hover, :focus) { background: hsl(221, 100%, 40%); }
+
+  .navbar::before,
+  .overlay-topnav { display: none; }
+
+
+}
+
+@media (min-width: 1100px) and (max-width: 3000px) { 
+
+.active-topnav{
+  display: none;
+}
+}
+@media (min-width: 200px) and (max-width: 1099px) { 
+
+.topofnav{
+  display: none;
+}
+.navBar{
+  margin-top: 100px;
+}
+}
+
+
+    </style>
+
+</head>
+<body>
+
+
+
+<div class="palwashapage">
+<!-- **********************************This is NavBar*************************************** -->
+
+
+<header class="active-topnav" data-header>
+  <div class="container-topnav">
+
+    <!-- 
+      - overlay-topnav
+    -->
+    <div class="overlay-topnav" data-overlay-topnav></div>
+
+
+    <button class="nav-toggle-btn" data-nav-toggle-btn>
+      <ion-icon name="menu-outline"></ion-icon>
+    </button>
+
+    <nav class="navbar" data-navbar>
+      <ul class="navbar-list">
+
+        <li class="navbar-item">
+          <a href="#" class="navbar-link">Home</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="./All Games.html" class="navbar-link">All Games</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="./X1 Collection.html" class="navbar-link">X1 Collection</a>
+        </li>
+
+
+        <li class="navbar-item">
+          <a href="./Y1 Collection.html" class="navbar-link">Y1 Collection</a>
+        </li>
+
+      </ul>
+
+      <div class="navbar-actions">
+
+  
+
+      </div>
+    </nav>
+
+  </div>
+</header>
+
+<div class="topofnav">
+  <div class="nv1"> <a href="./Index.html"> <button class="b1">Home</button></a>
+      <div class="blinky6"></div>
+      <div class="blinky7"></div>
+      <div class="blinky8"></div>
+      <div class="blinky9"></div>
+</div>
+  <div class="nv2"> <a href="./All Games.html"> <button class="b2">All Games</button></a>
+      <div class="blinky"></div>
+      <div class="blinky2"></div>
+      <div class="blinky3"></div>
+      <div class="blinky5"></div>
+
+  </div>
+  <div class="nv3"> <a href="./X1 Collection.html"> <button class="b3">X1 Collection</button></a>
+      <div class="blinky4"></div>
+      <div class="blinky10"></div>
+      <div class="blinky11"></div>
+
+  </div>
+  <div class="nv4"> <a href="./Y1 Collection.html"> <button class="b4">Y1 Collection</button></a>
+      <div class="blinky12"></div>
+      <div class="blinky13"></div>
+      <div class="blinky14"></div>
+      <div class="blinky15"></div>
+
+  </div>
+</div>
+    
+  <div class="navBar">
+    <a class="navLogo">Cybernatic 20255 Gaming Shop </a>
+    <span  class="center1"><h1 id="h1011" class="glitch1 is-glitching1" data-text="Cyber Shop">Cyber Shop</h1></span>
+</div>
+
+<div class="im010"><img class="imgv1" src="./Assets/Game Shop/cart design.png" alt=""></div>
+
+    
+  <div class="box">
+    <div class="palwashabox">
+      <p class="text1">
+        Download, Discover, and Enjoy In Our Extraordinary <span  class="center"><h1 id="h101" class="glitch is-glitching" data-text="PC Gaming">PC Gaming</h1></span> <span class="span01">Marketplace</span> 
+      </p>
+      <p class="text2">
+        Dont Forget To SignUp And Subscribe To Our Newsletter.
+      </p>
+      <div class="palwashabtn">
+      
+        <!-- *************************Login Button************************8 -->
+
+        <div class="login-button-div">
+          <a href="./X1 Collection.html" class="login-button">X1 Collection</a>
+          </div>
+<!-- *************************Signup Button************************8 -->
+
+<div class="button-div">
+  <a href="./Y1 Collection.html" class="l-button">Y1 Collection</a>
+  </div>
+
+
+      </div>
+    </div>
+    <div class="display">
+      <img class="img1" src="./Assets/Game Shop/pokemon_detective_pikachu_ver10_xlg-1.jpg">
+      <div class="palluxx">
+        <div class="info">
+          <img class="img2" src="./Assets/Game Shop/profile.png">
+          <div>
+            <p>Sohail</p>
+            <p>20$ -- 0.001BTC</p>
+            <p class="p01">The Great TuTu Hot Pursuit 2022</p>
+          </div>
+  </div>
+        <div class="info2">
+          <p>WE ARE HERE</p>
+          <div class="palluicon">
+            <svg width="22" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.7365 2C3.6575 2 1.5 3.8804 1.5 6.5135c0 3.1074 2.3236 5.9603 4.8612 8.1207 1.2458 1.0606 2.4954 1.9137 3.4352 2.5022.4692.2937.8593.5203 1.1305.6727L11 17.85l.0731-.0409a27.984 27.984 0 0 0 1.1304-.6727c.9399-.5885 2.1895-1.4416 3.4353-2.5022C18.1764 12.4738 20.5 9.6209 20.5 6.5135 20.5 3.8805 18.3425 2 16.2635 2c-2.1054 0-3.8008 1.389-4.552 3.6426a.75.75 0 0 1-1.423 0C9.5373 3.389 7.8418 2 5.7365 2ZM11 18.7027l.3426.6672a.7502.7502 0 0 1-.6852 0L11 18.7027ZM0 6.5135C0 3.052 2.829.5 5.7365.5 8.0298.5 9.8808 1.7262 11 3.6048 12.1192 1.7262 13.9702.5 16.2635.5 19.171.5 22 3.052 22 6.5135c0 3.8183-2.8014 7.06-5.3888 9.2628-1.3167 1.121-2.6296 2.0166-3.6116 2.6314-.4918.308-.9025.5467-1.1918.7092a19.142 19.142 0 0 1-.4301.2347l-.0248.013-.007.0036-.0021.0011c-.0003.0001-.0012.0006-.3438-.6666-.3426.6672-.3424.6673-.3426.6672l-.0033-.0017-.007-.0036-.0248-.013a19.142 19.142 0 0 1-.4301-.2347 29.324 29.324 0 0 1-1.1918-.7092c-.982-.6148-2.295-1.5104-3.6116-2.6314C2.8014 13.5735 0 10.3318 0 6.5135Z" fill="#E0E0E0"/>
+  </svg>
+            25
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="group">
+
+    <img class="group-img" src="./Assets/Main-group.png" alt="">
+
+  </div>
+
+  <div class="sulfa">
+    <p class="text5">Why To Use Cybernetic? </p>
+    <p class="text6">The Following Are The Simplest Keypoints About Why To Use Cybernetic.</p>
+    <div class="sulfaitems">
+      <div class="pallluitem">
+        <div class="sulafaitem">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+            <path style="stroke:none;fill-rule:nonzero;fill:#e0e0e0;fill-opacity:1" d="M24.7969 14.6719c.4375-.4414.4375-1.1524 0-1.5938-.4414-.4375-1.1524-.4375-1.5938 0L16.5 19.7851l-2.9531-2.957c-.4414-.4375-1.1524-.4375-1.5938 0-.4375.4414-.4375 1.1524 0 1.5938l3.75 3.75a1.1246 1.1246 0 0 0 1.5938 0Zm0 0"/>
+            <path style="stroke:none;fill-rule:evenodd;fill:#e0e0e0;fill-opacity:1" d="M18.8086.957a2.6005 2.6005 0 0 0-1.6172 0L4.8164 4.9688C3.7344 5.3202 3 6.3241 3 7.4648V15c0 9.2852 5.6563 16.0586 14.1016 19.246a2.5853 2.5853 0 0 0 1.7968 0C27.3438 31.0587 33 24.2853 33 15V7.4648a2.6182 2.6182 0 0 0-1.8164-2.496Zm-.9219 2.1368a.3738.3738 0 0 1 .2266 0l12.375 4.0117c.1601.0547.2617.1992.2617.3593V15c0 8.1914-4.9219 14.2227-12.6445 17.1367a.2815.2815 0 0 1-.211 0C10.172 29.2227 5.25 23.1914 5.25 15V7.4648c0-.1601.1016-.3046.2617-.3593Zm0 0"/>
+          </svg>
+</div>
+        <p>Infinity Secure, Fast & Reliable</p>
+      </div>
+      <div class="pallluitem">
+        <div class="sulafaitem">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#00c9ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>        </div>
+        <p>24/7 Available For You</p>
+      </div>
+      <div class="pallluitem">
+        <div class="sulafaitem">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#00c9ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>        </div>
+        <p>No Downtime for users</p>
+      </div>
+      <div class="pallluitem">
+        <div class="sulafaitem">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+    <path style="stroke:none;fill-rule:evenodd;fill:#bdbdbd;fill-opacity:1" d="M30.9453.5a16.7245 16.7245 0 0 0-11.4687 4.5508l-2.0274 1.914a35.9135 35.9135 0 0 0-2.3984 2.4805h-7.836c-.957 0-1.8437.5-2.3359 1.3203L.668 17.7891c-.1952.3242-.2226.7226-.0702 1.0664.1523.3476.4609.5976.828.6758l7.1134 1.496c.0586.0782.125.1485.1992.2188l3.1054 2.914 2.9102 3.1016c.0703.0742.1406.1406.2188.1992l1.496 7.1133c.0782.3672.3282.6758.6758.8281a1.158 1.158 0 0 0 1.0664-.0703l7.0235-4.211a2.7222 2.7222 0 0 0 1.3203-2.3358v-7.836a36.8748 36.8748 0 0 0 2.4844-2.3984l1.9101-2.0274A16.7411 16.7411 0 0 0 35.5 5.0508l-.004-1.8281C35.496 1.7187 34.2774.5 32.7774.5Zm-6.7226 22.3398a39.89 39.89 0 0 1-1.582 1.1172l-5.2813 3.5196 1.0547 5.0156 5.621-3.3711c.1172-.0703.1876-.1992.1876-.336ZM8.5234 18.6406l3.5196-5.2812a34.8776 34.8776 0 0 1 1.1172-1.582H7.2148a.3952.3952 0 0 0-.3359.1913L3.508 17.586ZM21.0781 6.75a14.3862 14.3862 0 0 1 9.8672-3.918h1.832c.211 0 .3868.1758.3868.3907v1.828c0 3.672-1.3985 7.2032-3.9141 9.8712l-1.9102 2.0273a34.7388 34.7388 0 0 1-5.996 5.0664l-5.1133 3.4102-2.711-2.8906c-.0195-.0157-.0351-.0352-.0547-.0508l-2.8906-2.7149 3.4102-5.1172c1.457-2.1796 3.1523-4.1914 5.0625-5.9921Zm5.4766 5.0273c0 1.2891-1.043 2.332-2.332 2.332-1.2891 0-2.332-1.0429-2.332-2.332 0-1.289 1.0429-2.332 2.332-2.332 1.289 0 2.332 1.043 2.332 2.332ZM9.4453 32c1.3985-1.3984 1.3985-4.043 0-5.4453-1.4023-1.3985-4.0469-1.3985-5.4453 0-1.879 1.8828-2.246 6.0703-2.3164 7.3789a.3609.3609 0 0 0 .3828.3828C3.375 34.2461 7.5625 33.879 9.4454 32Zm0 0"/>
+  </svg>
+        </div>
+        <p>Its Really Fast, Just download </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- **************************************Games Of the Month Section******************************* -->
+
+  <div class="palluyy">
+    <div class="pera">
+      <p class="text3">Games Of The Month "August"</p>
+      <p class="text4"><a class="a0001" href="./All Games.html">View all</a></p>
+    </div>
+    <div class="sohipallu">
+      <!-- <div class=item>
+        <img class="img3" src="./Assets/Game Shop/Games Of the Month/1.jpg">
+        <div class="imgtext">
+          <p>Game Name Here</p>
+          <p>Price Here</p>
+        </div>
+
+       <div> <button class="custom-btn btn-5"><span><a class="btn-5sun" href="./Payment Ui.html">Download</a></span></button></div>
+      </div> -->
+
+<div class="ma">
+      <div class="container-card">
+        <div class="wrapper-card">
+          <div class="banner-image img1"> </div>
+          <h1 class="h1-card"> Racing Mania</h1>
+          <p class="p-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eius esse?</p>
+
+         </div>
+         <div class="button-wrapper-card"> 
+          <a  onclick="myFunction()" href="#popup" class="btn-card outline button">DETAILS</a>
+          <button class="btn-card fill mg2"><a href="./Assets/Example Game Download File.zip" download=""> Download Now</a></button>
+         </div>
+      
+           </div>
+
+           <div class="container-card">
+            <div class="wrapper-card">
+              <div class="banner-image img2"> </div>
+              <h1 class="h1-card"> Super Sonic</h1>
+              <p class="p-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eius esse?</p>
+
+             </div>
+             <div class="button-wrapper-card"> 
+              <a  onclick="myFunction02()" href="#popup1" class="btn-card outline button">DETAILS</a>
+              <button class="btn-card fill"><a href="./Assets/Example Game Download File.zip" download=""> Download Now</a></button>
+            </div>
+         
+               </div>
+
+               <div class="container-card">
+                <div class="wrapper-card">
+                  <div class="banner-image img3"> </div>
+                  <h1 class="h1-card">Penguin Party</h1>
+                  <p class="p-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eius esse?</p>
+                 </div>
+                 <div class="button-wrapper-card"> 
+                 <a  onclick="myFunction04()" href="#popup2" class="btn-card outline button">DETAILS</a>
+                 <button class="btn-card fill"><a href="./Assets/Example Game Download File.zip" download=""> Download Now</a></button>
+                </div>
+         
+                   </div>
+
+         
+
+                       
+
+
+
+       </div>
+
+
+
+
+
+
+       
+
+       
+      </div>
+
+
+      <div class="popup p0001" id="popup">
+        <div class="popup-inner">
+          <div class="popupphoto">
+            <img src="./Assets/popup.jpg" alt="">
+          </div>
+          <div class="popuptext">
+            <h1>The Racing Mania ABC</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ducimus quia enim eum possimus quaerat, voluptatem, praesentium soluta accusamus eaque modi deleniti sapiente doloremque itaque a ad, neque fugiat. Voluptatem!</p>
+          </div>
+          <button onclick="myFunction01()" class="closepopup" >X</button>
+        </div>
+      </div>
+
+
+
+      <div class="popup p0002" id="popup1">
+        <div class="popup-inner">
+          <div class="popupphoto">
+            <img src="./Assets/popup.jpg" alt="">
+          </div>
+          <div class="popuptext">
+            <h1> The Super Sonic ABC</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ut suscipit similique non eligendi atque! Accusamus, illum, sed ullam dolor alias ex rerum odio nemo necessitatibus illo mollitia. Perspiciatis, minus.</p>
+          </div>
+          <button onclick="myFunction03()" class="closepopup" >X</button>
+        </div>
+      </div>
+
+
+       <div class="popup p0003" id="popup2">
+        <div class="popup-inner">
+          <div class="popupphoto">
+            <img src="./Assets/popup.jpg" alt="">
+          </div>
+          <div class="popuptext">
+            <h1>The Penguin Party  </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, autem culpa nihil totam perferendis officia. Saepe, facilis alias hic assumenda esse culpa maiores illo, minima atque amet quia dolore voluptas?</p>
+          </div>
+          <button onclick="myFunction05()" class="closepopup" >X</button>
+        </div>
+      </div>
+
+  <!-- **********************************Upcoming Games Section******************************** -->
+
+
+
+<h2 class="allg1"><strong class="allg2">Upcoming Games<span>Next Month</span></strong></h2>
+
+<div class="upcomingcards">
+  <div class="colorful-card">
+    <div class="card-content">
+      <h3 class="card-title">The Great Mario 2023</h3>
+      <h4 class="card-subtitle text01">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus dignissimos.</h4>
+      <div class="img-card"><img class="mario" src="./Assets/UpcomingGames/1.png" alt=""></div>
+    </div>
+  
+    <i class="fa-regular fa-gamepad"></i>
+  </div>
+  <div class="colorful-card">
+    <div class="card-content">
+      <h3 class="card-title">The Super Sonic New</h3>
+      <h4 id="card-subtitle" class="card-subtitle text02">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus dignissimos.</h4>
+      <div class="img-card"><img class="mario" src="./Assets/UpcomingGames/2.png" alt=""></div>
+
+    </div>
+    <i class="fa-regular fa-gamepad"></i>
+  </div>
+  
+  <div class="colorful-card">
+    <div class="card-content">
+      <h3 class="card-title">The Snow Bross L56</h3>
+      <h4 class="card-subtitle text03">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus dignissimos.</h4>
+      <div class="img-card"><img class="mario" src="./Assets/UpcomingGames/3.png" alt=""></div>
+
+    </div>
+    <i class="fa-regular fa-gamepad"></i>
+  </div>
+  
+  
+  
+  <div class="colorful-card">
+    <div class="card-content">
+      <h3 class="card-title"> Garfield Adventure</h3>
+      <h4 class="card-subtitle text04">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus dignissimos.</h4>
+      <div class="img-card"><img class="mario" src="./Assets/UpcomingGames/4.png" alt=""></div>
+    </div>
+    <i class="fa-regular fa-gamepad"></i>
+  </div>
+  </div>
+
+
+
+
+
+
+
+ 
+  <div class="palluzz">
+    <div class="pallutittle">
+      <p>Discover</p>
+      <div class="pallufilter">
+        <div class="filter">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 14 12">
+  <path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:#f2f2f2;stroke-opacity:1;stroke-miterlimit:4" d="M1.731 1.002h13.1976M1.731 4.998h9.134M1.731 9h6.0893m4.0636 0 4.0575-4.002m0 0L20.005 9m-4.0636-4.002v12" transform="scale(.63636 .66667)"/>
+</svg>
+          Category
+        </div>
+        <div class="filter">
+          Cheapest
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" viewBox="0 0 11 6">
+  <path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:#f2f2f2;stroke-opacity:1;stroke-miterlimit:4" d="M15.4787 1.002 8.3732 7.998 1.2678 1.002" transform="scale(.64706 .66667)"/>
+</svg>
+        </div>
+        <div class="filter">
+          Newest
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" viewBox="0 0 11 6">
+  <path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:#f2f2f2;stroke-opacity:1;stroke-miterlimit:4" d="M15.4787 1.002 8.3732 7.998 1.2678 1.002" transform="scale(.64706 .66667)"/>
+</svg>
+        </div>
+        <button  class="button0001" id="filter-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 14 14">
+  <path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:#fff;stroke-opacity:1;stroke-miterlimit:4" d="M1.1546 1.9978c0-.5525.4553-.999 1.0028-.999h16.273c.5537 0 1.0028.4465 1.0028.999v2.578c0 .2735-.1046.5358-.3014.72l-6.5092 6.4062c-.1846.1897-.2953.4464-.2953.7199V15l-4.0606 4.0011V12.422c0-.2735-.1046-.5302-.3015-.7199l-6.503-6.4062c-.1907-.1842-.3076-.4465-.3076-.72Zm0 0" transform="matrix(.63492 0 0 .7 .3333 0)"/>
+</svg>
+          Filter
+        </button>
+        <div id="filter-container" class="filters">
+          <ul class="filters__list">
+            <li>
+          <input id="f1" type="checkbox" />
+            <label for="f1">High To Low $</label>
+            </li>
+                <li>
+          <input id="f2" type="checkbox" />
+            <label for="f2">Low To High $</label>
+            </li>
+                <li>
+          <input id="f3" type="checkbox" />
+            <label for="f3">Sort By Name</label>
+            </li>
+
+            
+          </ul></div>
+
+
+
+      </div>
+    </div>
+
+
+
+    <!-- ****************************************Available All Games Section************************* -->
+
+
+    
+
+    <div class="sohail">
+
+      <div class="item rgb">
+        <div class="item-image item2 d1"></div>
+        <div class="item-text item2">
+          <span class="date">Category Here</span>
+          <h2>Game Name </h2>
+          <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+        </div>
+        <div class="button-wrapper-card01"> 
+          <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn1 btn-5-1">Download Now</button></a>
+
+         </div>
+      </div>
+
+
+
+      <div class="item rgb">
+        <div class="item-image item2 d2"></div>
+        <div class="item-text item2">
+          <span class="date">Category Here</span>
+          <h2>Game Name </h2>
+          <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+        </div>
+        <div class="button-wrapper-card01"> 
+           <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn1 btn-5-1">Download Now</button></a>
+
+         </div>
+      </div>
+
+
+      <div class="item rgb">
+        <div class="item-image item2 d3"></div>
+        <div class="item-text item2">
+          <span class="date">Category Here</span>
+          <h2>Game Name </h2>
+          <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+        </div>
+        <div class="button-wrapper-card01"> 
+           <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn1 btn-5-1">Download Now</button></a>
+
+         </div>
+      </div>
+
+
+
+      <div class="item rgb">
+        <div class="item-image item2 d4"></div>
+        <div class="item-text item2">
+          <span class="date">Category Here</span>
+          <h2>Game Name </h2>
+          <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+        </div>
+        <div class="button-wrapper-card01"> 
+           <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn1 btn-5-1">Download Now</button></a>
+
+         </div>
+      </div>
+
+
+
+      <div class="item rgb">
+        <div class="item-image item2 d5"></div>
+        <div class="item-text item2">
+          <span class="date">Category Here</span>
+          <h2>Game Name </h2>
+          <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+        </div>
+        <div class="button-wrapper-card01"> 
+           <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn1 btn-5-1">Download Now</button></a>
+
+         </div>
+      </div>
+
+
+      <div class="item rgb">
+        <div class="item-image item2 d6"></div>
+        <div class="item-text item2">
+          <span class="date">Category Here</span>
+          <h2>Game Name </h2>
+          <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+        </div>
+        <div class="button-wrapper-card01"> 
+           <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn1 btn-5-1">Download Now</button></a>
+
+         </div>
+      </div>
+
+
+      <div class="item rgb">
+        <div class="item-image item2 d7"></div>
+        <div class="item-text item2">
+          <span class="date">Category Here</span>
+          <h2>Game Name </h2>
+          <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+        </div>
+        <div class="button-wrapper-card01"> 
+           <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn1 btn-5-1">Download Now</button></a>
+
+         </div>
+      </div>
+
+
+      <div class="item rgb">
+        <div class="item-image item2 d8"></div>
+        <div class="item-text item2">
+          <span class="date">Category Here</span>
+          <h2>Game Name </h2>
+          <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+        </div>
+        <div class="button-wrapper-card01"> 
+           <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn1 btn-5-1">Download Now</button></a>
+
+         </div>
+      </div>
+
+
+
+      <div class="item rgb">
+        <div class="item-image item2 d9"></div>
+        <div class="item-text item2">
+          <span class="date">Category Here</span>
+          <h2>Game Name </h2>
+          <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+        </div>
+        <div class="button-wrapper-card01"> 
+           <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn1 btn-5-1">Download Now</button></a>
+
+         </div>
+      </div>
+
+      <div class="item rgb">
+        <div class="item-image item2 d10"></div>
+        <div class="item-text item2">
+          <span class="date">Category Here</span>
+          <h2>Game Name </h2>
+          <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+        </div>
+        <div class="button-wrapper-card01"> 
+           <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn1 btn-5-1">Download Now</button></a>
+
+         </div>
+      </div>
+
+      <div class="item rgb">
+        <div class="item-image item2 d11"></div>
+        <div class="item-text item2">
+          <span class="date">Category Here</span>
+          <h2>Game Name </h2>
+          <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+        </div>
+        <div class="button-wrapper-card01"> 
+           <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn1 btn-5-1">Download Now</button></a>
+
+         </div>
+      </div>
+
+      <div class="item rgb">
+        <div class="item-image item2 d12"></div>
+        <div class="item-text item2">
+          <span class="date">Category Here</span>
+          <h2>Game Name </h2>
+          <p>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatum iste inventore fuga voluptas nisi modi quo enim saepe illo.</p>
+        </div>
+        <div class="button-wrapper-card01"> 
+           <a href="./Assets/Example Game Download File.zip" download=""><button class="custom-btn1 btn-5-1">Download Now</button></a>
+
+         </div>
+      </div>
+
+
+
+ 
+
+
+
+  
+
+
+</div>
+    
+    
+    
+    
+    
+    <button class="btn107"><a class="a091" href="./All Games.html">LOAD ALL GAMES</a> </button>
+  </div>
+
+
+  <br><br>
+<div>
+
+  <p class="text-cards1">Special Cybernatic Shop's Special X1 Collection</p>
+
+  <main class="shanza">
+
+    <div class="cards cards1">
+      <div class="asha">
+        <h2 class="head1">Name Of The Game Here</h2>
+        <p class="text101">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus ratione hic commodi explicabo beatae velit quo eaque.</p>
+        <a href="./Assets/Example Game Download File.zip" download=""><button class="palluBtn"> Download Now</button></a>
+
+      </div>
+    </div>
+    <div class="cards cards2">
+      <div class="asha">
+        <h2 class="head1">Name Of The Game Here</h2>
+        <p class="text101">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus ratione hic commodi explicabo beatae velit quo eaque.</p>
+        <a href="./Assets/Example Game Download File.zip" download=""><button class="palluBtn"> Download Now</button></a>
+      </div>
+    </div>
+    <div class="cards cards3">
+      <div class="asha">
+        <h2 class="head1">Name Of The Game Here</h2>
+        <p class="text101">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus ratione hic commodi explicabo beatae velit quo eaque.</p>
+        <a href="./Assets/Example Game Download File.zip" download=""><button class="palluBtn"> Download Now</button></a>
+      </div>
+    </div>
+    <div class="cards cards4">
+      <div class="asha">
+        <h2 class="head1">Name Of The Game Here</h2>
+        <p class="text101">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus ratione hic commodi explicabo beatae velit quo eaque.</p>
+        <a href="./Assets/Example Game Download File.zip" download=""><button class="palluBtn"> Download Now</button></a>
+      </div>
+    </div>
+  </main>
+</div>
+ <div class="btn107-1"> <button class="btn107"><a class="txt-dec" href="./X1 Collection.html">Load More X1 Collection</a></button></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- *******************************New Cards************************** -->
+
+<p class="text-cards1-1">Special Cybernatic Shop's VIP Y1 Collection</p>
+
+<main id="main">
+  <div class="card-last"><img class="img-of-card" src="./Assets/Index-Y1-Cards/54.jfif" alt="A City skyline at sunset"/>
+    <div class="text">
+      <h2 class="h201" data-splitting="">Game Name</h2>
+      <p class="p201" data-splitting="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos excepturi nostrum necessitatibus doloremque? Quasi non molestias odio.  Quasi non molestias odio.</p>
+      <button class="custom-btn btn-5"><span><a class="btn-5sun" href="./Assets/Example Game Download File.zip" download="">Click Here To Download</a></span></button>    </div>
+  </div>
+  <div class="card-last"><img class="img-of-card" src="./Assets/Index-Y1-Cards/58.png" alt="A City skyline at sunset"/>
+    <div class="text">
+      <h2 class="h201" data-splitting="">Game Name</h2>
+      <p class="p201" data-splitting=""> Quasi non molestias odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos excepturi nostrum necessitatibus doloremque? Quasi non molestias odio.</p>
+      <button class="custom-btn btn-5"><span><a class="btn-5sun" href="./Assets/Example Game Download File.zip" download="">Click Here To Download</a></span></button> 
+      
+    </div>
+  </div>
+  <div class="card-last"><img class="img-of-card" src="./Assets/Index-Y1-Cards/7.jfif" alt="A City skyline at sunset"/>
+    <div class="text">
+      <h2 class="h201" data-splitting="">Game Name</h2>
+      <p class="p201" data-splitting=""> Quasi non molestias odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos excepturi nostrum necessitatibus doloremque? Quasi non molestias odio.</p>
+      <button class="custom-btn btn-5"><span><a class="btn-5sun" href="./Assets/Example Game Download File.zip" download="">Click Here To Download</a></span></button> 
+    </div>
+  </div>
+  <div class="card-last"><img class="img-of-card" src="./Assets/Index-Y1-Cards/70.jfif" alt="A City skyline at sunset"/>
+    <div class="text">
+      <h2 class="h201" data-splitting="">Game Name</h2>
+      <p class="p201" data-splitting=""> Quasi non molestias odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos excepturi nostrum necessitatibus doloremque? Quasi non molestias odio.</p>
+      <button class="custom-btn btn-5"><span><a class="btn-5sun" href="./Assets/Example Game Download File.zip" download="">Click Here To Download</a></span></button> 
+    </div>
+  </div>
+</main>
+
+<div class="btn107-1"> <button class="btn107"><a class="txt-dec" href="./Y1 Collection.html">Load More VIP Y1 Collection</a></button></div>
+
+
+
+
+
+
+ 
+<div class="main-slider">
+  <div class="container"> 
+      <div class="slider">
+
+          <div class="box1 box-slider">
+              <div class="bg"></div>
+              <div class="details">
+                  <h1 class="h1-01">The Super Mario 2023</h1>
+                  <p class="p-slider">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing 
+                      elit. Integer lacinia dui lectus. Donec scelerisque ipsum
+                      diam, ac mattis orci pellentesque eget. 
+                  </p>
+                  <a href="./Assets/Example Game Download File.zip" download=""><button class="a563">Download Now</button></a>
+              </div>
+
+
+              <div class="illustration"><div class="inner i1"></div></div>
+          </div>
+                          
+          
+          <div class="box2 box-slider">
+              <div class="bg"></div>
+              <div class="details">
+                  <h1 class="h1-01">Sonic World 2023</h1>
+                  <p class="p-slider">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing 
+                      elit. Integer lacinia dui lectus. Donec scelerisque ipsum
+                      diam, ac mattis orci pellentesque eget. 
+                  </p>
+                  <a href="./Assets/Example Game Download File.zip" download=""><button class="a563">Download Now</button></a>
+              </div>
+
+              <div class="illustration"><div class="inner i2"></div></div>
+          </div>
+                          
+          <div class="box3 box-slider">
+              <div class="bg"></div>
+              <div class="details">
+                  <h1 class="h1-01">Garfield Adventure</h1>
+                  <p class="p-slider">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing 
+                      elit. Integer lacinia dui lectus. Donec scelerisque ipsum
+                      diam, ac mattis orci pellentesque eget. 
+                  </p>
+                  <a href="./Assets/Example Game Download File.zip" download=""><button class="a563">Download Now</button></a>
+              </div>
+
+              <div class="illustration"><div class="inner i3"></div></div>
+          </div>
+                          
+          <div class="box4 box-slider">
+              <div class="bg"></div>
+              <div class="details">
+                  <h1 class="h1-01">Need For Racing</h1>
+                  <p class="p-slider">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing 
+                      elit. Integer lacinia dui lectus. Donec scelerisque ipsum
+                      diam, ac mattis orci pellentesque eget. 
+                  </p>
+                  <a href="./Assets/Example Game Download File.zip" download=""><button class="a563">Download Now</button></a>
+              </div>
+
+              <div class="illustration"><div class="inner i4"></div></div>
+          </div>
+                          
+          <div class="box5 box-slider">
+              <div class="bg"></div>
+              <div class="details">
+                  <h1 class="h1-01">Plants Vs Zombies 5s</h1>
+                  <p class="p-slider">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing 
+                      elit. Integer lacinia dui lectus. Donec scelerisque ipsum
+                      diam, ac mattis orci pellentesque eget. 
+                  </p>
+                  <a href="./Assets/Example Game Download File.zip" download=""><button class="a563">Download Now</button></a>
+              </div>
+
+              <div class="illustration"><div class="inner i5"></div></div>
+          </div>
+                          
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" class="prev" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)" fill="#fff"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="next" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)" fill="#fff"/></svg>
+      <div class="trail">
+              <div class="box1 active">1</div>
+              <div class="box2">2</div>
+              <div class="box3">3</div>
+              <div class="box4">4</div>
+              <div class="box5">5</div>
+      </div>
+  </div>   
+</div>
+
+
+
+
+
+
+<div class="hero-particles-container">
+  <canvas id="hero-particles"></canvas>
+</div>
+
+
+<div class="footer-particles-container">
+<canvas id="footer-particles"></canvas>
+</div>
+
+
+
+
+<section class="newsletter">
+  <div class="newsletter-card">
+
+    <div class="card-content001">
+      <h3 class="h3 card-title001">Sign Up For Our Newsletter. It’s Free!</h3>
+
+      <p class="card-text001">
+        Lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt todeiy felis malesuada mollis purus id
+        sit in aliquet.
+      </p>
+    </div>
+
+    <form action="" class="card-form" data-form>
+      <input type="email" name="email_address" placeholder="Your Email Address" required class="input-field"
+        data-input>
+
+      <button type="submit" class="btn btn-primary"  data-submit>Subscribe</button>
+    </form>
+
+  </div>
+</section>
+
+
+
+
+<div class="more01">
+<p class="text5-2">Want To Know More About Us? </p>
+
+<div class="twobtn">
+
+  <a class="a001" href="./Contact Us.html">
+    <span class="span001"></span>
+    <span class="span001"></span>
+    <span class="span001"></span>
+    <span class="span001"></span>
+    Contact Us Anytime?
+  </a>
+
+  <a class="a001" href="./About Us.html">
+    <span class="span001"></span>
+    <span class="span001"></span>
+    <span class="span001"></span>
+    <span class="span001"></span>
+    Know More About Us
+  </a>
+
+</div>
+
+</div>
+
+
+
+
+<!-- ********************************Footer***************************************** -->
+
+<footer id="foot">
+  <div class='footer-main'>
+    <div class="foot-subb">
+      <ul class="footer-links">
+        <li class="links"><a class="a-footer" href="./Index.html">Home Page</a></li>
+        <li class="links"><a class="a-footer" href="./All Games.html">All Games</a></li>
+        <li class="links"><a class="a-footer" href="./X1 Collection.html">X1 Collection</a></li>
+        <li class="links"><a class="a-footer" href="./Y1 Collection.html">Y1 Collection</a></li>
+        <li class="links"><a class="a-footer" href="#">Home</a></li>
+      </ul>
+    </div>
+    <div class="foot-sub-sohail">
+      <a class="h20001" href="#"><h2 id="h2" class="h20001">Cybernatic Gaming Store</h2></a>
+      <h3 class="h3011">© 2022 Cybernetic. All rights reserved. </h3>
+
+      <div class="lower-part">
+          <!-- <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline position"> 
+          <li class="icons"><a href="#"><i class="fa fa-adn"></i></a> </li> 
+          <li class="icons"><a href="#"><i class="fa fa-android"></i></a> </li>   
+          <li class="icons"> <a href="#"><i class="fa fa-apple"></i></a> </li>
+          <li class="icons"> <a href="#"><i class="fa fa-bitbucket"></i></a> </li> 
+          <li class="icons"> <a href="#"><i class="fa fa-bitcoin"></i></a> </li> 
+          <li class="icons"> <a href="#"><i class="fa fa-css3"></i></a> </li> 
+          <li class="icons"> <a href="#"><i class="fa fa-dribbble"></i></a></li> 
+          <li class="icons"> <a href="#"><i class="fa fa-flickr"></i></a></li> 
+        </ul> -->
+        <div class="ft-img"><img class="ft-sub-img" src="./Assets/1.gif" alt=""></div>
+      </div>
+    </div>
+    <div class="foot-inner-logo">
+      <div class="footer-logo-container"><a><img class="img-footer" src="" alt=""></a></div>
+    </div>
+  </div>
+  <div class="footer-bottom-container">
+    <p class="p-las">The Cybernetic Gaming Shop Is Part Of Cybernetic 2055 Concept By aDxZhang</p>
+  </div>
+</footer>
+<script src='https://kit.fontawesome.com/944eb371a4.js'></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://unpkg.com/splitting/dist/splitting.min.js'></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+
+
+// Slider(all Slides in a container)
+const slider = document.querySelector(".slider")
+// All trails 
+const trail = document.querySelector(".trail").querySelectorAll(".box1,.box2,.box3,.box4,.box5 ")
+
+// Transform value
+let value = 0
+// trail index number
+let trailValue = 0
+// interval (Duration)
+let interval = 4000
+
+// Function to slide forward
+const slide = (condition) => {
+    // CLear interval
+    clearInterval(start)
+    // update value and trailValue
+    condition === "increase" ? initiateINC() : initiateDEC()
+    // move slide
+    move(value, trailValue)
+    // Restart Animation
+    animate()
+    // start interal for slides back 
+    start = setInterval(() => slide("increase"), interval);
+}
+
+// function for increase(forward, next) configuration
+const initiateINC = () => {
+    // Remove active from all trails
+    trail.forEach(cur => cur.classList.remove("active"))
+    // increase transform value
+    value === 80 ? value = 0 : value += 20
+    // update trailValue based on value
+    trailUpdate()
+}
+
+// function for decrease(backward, previous) configuration
+const initiateDEC = () => {
+     // Remove active from all trails
+    trail.forEach(cur => cur.classList.remove("active"))
+    // decrease transform value
+    value === 0 ? value = 80 : value -= 20
+     // update trailValue based on value
+    trailUpdate()
+}
+
+// function to transform slide 
+const move = (S, T) => {
+    // transform slider
+    slider.style.transform = `translateX(-${S}%)`
+    //add active class to the current trail
+    trail[T].classList.add("active")
+}
+
+const tl = gsap.timeline({defaults: {duration: 0.6, ease: "power2.inOut"}})
+tl.from(".bg", {x: "-100%", opacity: 0})
+  .from(".p-slider", {opacity: 0}, "-=0.3")
+  .from(".h1-01", {opacity: 0, y: "30px"}, "-=0.3")
+  .from(".a563", {opacity: 0, y: "-40px"}, "-=0.8")
+
+// function to restart animation
+const animate = () => tl.restart()
+
+// function to update trailValue based on slide value
+const trailUpdate = () => {
+    if (value === 0) {
+        trailValue = 0
+    } else if (value === 20) {
+        trailValue = 1
+    } else if (value === 40) {
+        trailValue = 2
+    } else if (value === 60) {
+        trailValue = 3
+    } else {
+        trailValue = 4
+    }
+}   
+
+// Start interval for slides
+let start = setInterval(() => slide("increase"), interval)
+
+// Next  and  Previous button function (SVG icon with different classes)
+document.querySelectorAll("svg").forEach(cur => {
+    // Assign function based on the class Name("next" and "prev")
+    cur.addEventListener("click", () => cur.classList.contains("next") ? slide("increase") : slide("decrease"))
+})
+
+// function to slide when trail is clicked
+const clickCheck = (e) => {
+    // CLear interval
+    clearInterval(start)
+    // remove active class from all trails
+    trail.forEach(cur => cur.classList.remove("active"))
+    // Get selected trail
+    const check = e.target
+    // add active class
+    check.classList.add("active")
+
+    // Update slide value based on the selected trail
+    if(check.classList.contains("box1")) {
+        value = 0
+    } else if (check.classList.contains("box2")) {
+        value = 20
+    } else if (check.classList.contains("box3")) {
+        value = 40
+    } else if (check.classList.contains("box4")) {
+        value = 60
+    } else {
+        value = 80
+    }
+    // update trail based on value
+    trailUpdate()
+    // transfrom slide
+    move(value, trailValue)
+    // start animation
+    animate()
+    // start interval
+    start = setInterval(() => slide("increase"), interval)
+}
+
+// Add function to all trails
+trail.forEach(cur => cur.addEventListener("click", (ev) => clickCheck(ev)))
+
+// Mobile touch Slide Section
+const touchSlide = (() => {
+    let start, move, change, sliderWidth
+
+    // Do this on initial touch on screen
+    slider.addEventListener("touchstart", (e) => {
+        // get the touche position of X on the screen
+        start = e.touches[0].clientX
+        // (each slide with) the width of the slider container divided by the number of slides
+        sliderWidth = slider.clientWidth/trail.length
+    })
+    
+    // Do this on touchDrag on screen
+    slider.addEventListener("touchmove", (e) => {
+        // prevent default function
+        e.preventDefault()
+        // get the touche position of X on the screen when dragging stops
+        move = e.touches[0].clientX
+        // Subtract initial position from end position and save to change variabla
+        change = start - move
+    })
+
+    const mobile = (e) => {
+        // if change is greater than a quarter of sliderWidth, next else Do NOTHING
+        change > (sliderWidth/4)  ? slide("increase") : null;
+        // if change * -1 is greater than a quarter of sliderWidth, prev else Do NOTHING
+        (change * -1) > (sliderWidth/4) ? slide("decrease") : null;
+        // reset all variable to 0
+        [start, move, change, sliderWidth] = [0,0,0,0]
+    }
+    // call mobile on touch end
+    slider.addEventListener("touchend", mobile)
+})()
+
+
+
+
+
+function myFunction() {
+  document.getElementById("popup").style.display = "flex";
+}
+function myFunction01() {
+  document.getElementById("popup").style.display = "none";
+}
+
+
+
+
+
+function myFunction02() {
+  document.getElementById("popup1").style.display = "flex";
+}
+function myFunction03() {
+  document.getElementById("popup1").style.display = "none";
+}
+
+
+function myFunction04() {
+  document.getElementById("popup2").style.display = "flex";
+}
+function myFunction05() {
+  document.getElementById("popup2").style.display = "none";
+}
+
+
+
+
+
+
+Splitting();
+
+
+
+/**
+ * element toggle function
+ */
+
+ const elemToggleFunc = function (elem) { elem.classList.toggle("active-topnav"); }
+
+
+
+/**
+ * navbar variables
+ */
+
+const navbar = document.querySelector("[data-navbar]");
+const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
+const overlay = document.querySelector("[data-overlay-topnav]");
+
+const navElemArr = [navToggleBtn, overlay];
+
+for (let i = 0; i < navElemArr.length; i++) {
+
+  navElemArr[i].addEventListener("click", function () {
+    elemToggleFunc(navbar);
+    elemToggleFunc(overlay);
+  });
+
+}
+
+
+
+
+</script>
+
+</body>
+</html>
